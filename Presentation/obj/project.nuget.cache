@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Cxpt3ZdwG0s=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\om.singh\\source\\repos\\PresentationSolution\\Presentation\\Presentation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\om.singh\\.nuget\\packages\\questpdf\\2024.10.0\\questpdf.2024.10.0.nupkg.sha512"
+  ],
+  "logs": []
+}
