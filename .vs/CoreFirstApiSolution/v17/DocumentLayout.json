@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|c:\\users\\om.singh\\source\\repos\\corefirstapisolution\\corefirstapi\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|solutionrelative:corefirstapi\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|c:\\users\\om.singh\\source\\repos\\corefirstapisolution\\corefirstapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|solutionrelative:corefirstapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|c:\\users\\om.singh\\source\\repos\\corefirstapisolution\\corefirstapi\\mapper\\customerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|solutionrelative:corefirstapi\\mapper\\customerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|c:\\users\\om.singh\\source\\repos\\corefirstapisolution\\corefirstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|solutionrelative:corefirstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|c:\\users\\om.singh\\source\\repos\\corefirstapisolution\\corefirstapi\\services\\customerbasicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|solutionrelative:corefirstapi\\services\\customerbasicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|c:\\users\\om.singh\\source\\repos\\corefirstapisolution\\corefirstapi\\interfaces\\icustomerbasicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|solutionrelative:corefirstapi\\interfaces\\icustomerbasicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|c:\\users\\om.singh\\source\\repos\\corefirstapisolution\\corefirstapi\\models\\dtos\\icustomerbasicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|solutionrelative:corefirstapi\\models\\dtos\\icustomerbasicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|c:\\users\\om.singh\\source\\repos\\corefirstapisolution\\corefirstapi\\models\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|solutionrelative:corefirstapi\\models\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|c:\\users\\om.singh\\source\\repos\\corefirstapisolution\\corefirstapi\\exceptions\\couldnotaddexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|solutionrelative:corefirstapi\\exceptions\\couldnotaddexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|c:\\users\\om.singh\\source\\repos\\corefirstapisolution\\corefirstapi\\context\\shoppingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|solutionrelative:corefirstapi\\context\\shoppingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|c:\\users\\om.singh\\source\\repos\\corefirstapisolution\\corefirstapi\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|solutionrelative:corefirstapi\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|c:\\users\\om.singh\\source\\repos\\corefirstapisolution\\corefirstapi\\models\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|solutionrelative:corefirstapi\\models\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|c:\\users\\om.singh\\source\\repos\\corefirstapisolution\\corefirstapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|solutionrelative:corefirstapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|c:\\users\\om.singh\\source\\repos\\corefirstapisolution\\corefirstapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|solutionrelative:corefirstapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|c:\\users\\om.singh\\source\\repos\\corefirstapisolution\\corefirstapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|solutionrelative:corefirstapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|c:\\users\\om.singh\\source\\repos\\corefirstapisolution\\corefirstapi\\models\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|solutionrelative:corefirstapi\\models\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|c:\\users\\om.singh\\source\\repos\\corefirstapisolution\\corefirstapi\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|solutionrelative:corefirstapi\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|c:\\users\\om.singh\\source\\repos\\corefirstapisolution\\corefirstapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|solutionrelative:corefirstapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|c:\\users\\om.singh\\source\\repos\\corefirstapisolution\\corefirstapi\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFDE38E-62E9-469B-A0AE-EC7D8D730861}|CoreFirstApi\\CoreFirstApi.csproj|solutionrelative:corefirstapi\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "CoreFirstApi\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Repositories\\CustomerRepository.cs*",
+              "RelativeToolTip": "CoreFirstApi\\Repositories\\CustomerRepository.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T06:32:30.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerProfile.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Mapper\\CustomerProfile.cs",
+              "RelativeDocumentMoniker": "CoreFirstApi\\Mapper\\CustomerProfile.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Mapper\\CustomerProfile.cs*",
+              "RelativeToolTip": "CoreFirstApi\\Mapper\\CustomerProfile.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T09:09:49.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerBasicService.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Services\\CustomerBasicService.cs",
+              "RelativeDocumentMoniker": "CoreFirstApi\\Services\\CustomerBasicService.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Services\\CustomerBasicService.cs*",
+              "RelativeToolTip": "CoreFirstApi\\Services\\CustomerBasicService.cs*",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T06:57:02.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Program.cs",
+              "RelativeDocumentMoniker": "CoreFirstApi\\Program.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Program.cs*",
+              "RelativeToolTip": "CoreFirstApi\\Program.cs*",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwBoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T04:51:18.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "CoreFirstApi\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Controllers\\CustomerController.cs*",
+              "RelativeToolTip": "CoreFirstApi\\Controllers\\CustomerController.cs*",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwBkAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:24:07.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICustomerBasicService.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Interfaces\\ICustomerBasicService.cs",
+              "RelativeDocumentMoniker": "CoreFirstApi\\Interfaces\\ICustomerBasicService.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Interfaces\\ICustomerBasicService.cs*",
+              "RelativeToolTip": "CoreFirstApi\\Interfaces\\ICustomerBasicService.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T06:55:54.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICustomerBasicService.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Models\\DTOs\\ICustomerBasicService.cs",
+              "RelativeDocumentMoniker": "CoreFirstApi\\Models\\DTOs\\ICustomerBasicService.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Models\\DTOs\\ICustomerBasicService.cs*",
+              "RelativeToolTip": "CoreFirstApi\\Models\\DTOs\\ICustomerBasicService.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:10:16.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Models\\DTOs\\CustomerDTO.cs",
+              "RelativeDocumentMoniker": "CoreFirstApi\\Models\\DTOs\\CustomerDTO.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Models\\DTOs\\CustomerDTO.cs*",
+              "RelativeToolTip": "CoreFirstApi\\Models\\DTOs\\CustomerDTO.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T06:58:20.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CouldNotAddException.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Exceptions\\CouldNotAddException.cs",
+              "RelativeDocumentMoniker": "CoreFirstApi\\Exceptions\\CouldNotAddException.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Exceptions\\CouldNotAddException.cs*",
+              "RelativeToolTip": "CoreFirstApi\\Exceptions\\CouldNotAddException.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T06:37:57.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "CoreFirstApi\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Interfaces\\IRepository.cs*",
+              "RelativeToolTip": "CoreFirstApi\\Interfaces\\IRepository.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T06:30:39.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CartItems.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Models\\CartItems.cs",
+              "RelativeDocumentMoniker": "CoreFirstApi\\Models\\CartItems.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Models\\CartItems.cs*",
+              "RelativeToolTip": "CoreFirstApi\\Models\\CartItems.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T04:32:49.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "CoreFirstApi\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Models\\Cart.cs*",
+              "RelativeToolTip": "CoreFirstApi\\Models\\Cart.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T04:32:24.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShoppingContext.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Context\\ShoppingContext.cs",
+              "RelativeDocumentMoniker": "CoreFirstApi\\Context\\ShoppingContext.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Context\\ShoppingContext.cs*",
+              "RelativeToolTip": "CoreFirstApi\\Context\\ShoppingContext.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T04:55:37.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\appsettings.json",
+              "RelativeDocumentMoniker": "CoreFirstApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\appsettings.json*",
+              "RelativeToolTip": "CoreFirstApi\\appsettings.json*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-16T04:49:13.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "CoreFirstApi\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Models\\Order.cs*",
+              "RelativeToolTip": "CoreFirstApi\\Models\\Order.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T04:28:52.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderDetails.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Models\\OrderDetails.cs",
+              "RelativeDocumentMoniker": "CoreFirstApi\\Models\\OrderDetails.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Models\\OrderDetails.cs*",
+              "RelativeToolTip": "CoreFirstApi\\Models\\OrderDetails.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T04:29:36.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "CoreFirstApi\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Models\\Customer.cs*",
+              "RelativeToolTip": "CoreFirstApi\\Models\\Customer.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T04:29:15.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "CoreFirstApi\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\Models\\Product.cs*",
+              "RelativeToolTip": "CoreFirstApi\\Models\\Product.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T04:28:14.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\CartItem.cs",
+              "RelativeDocumentMoniker": "CoreFirstApi\\CartItem.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CoreFirstApiSolution\\CoreFirstApi\\CartItem.cs*",
+              "RelativeToolTip": "CoreFirstApi\\CartItem.cs*",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T06:04:54.469Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
