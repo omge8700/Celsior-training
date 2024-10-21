@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\om.singh\\source\\repos\\CodeFirstDatabaseSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{153FD988-8824-49C8-9CF0-EC315E3D6EB9}|CodeFirstDatabase\\CodeFirstDatabase.csproj|c:\\users\\om.singh\\source\\repos\\codefirstdatabasesolution\\codefirstdatabase\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153FD988-8824-49C8-9CF0-EC315E3D6EB9}|CodeFirstDatabase\\CodeFirstDatabase.csproj|solutionrelative:codefirstdatabase\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153FD988-8824-49C8-9CF0-EC315E3D6EB9}|CodeFirstDatabase\\CodeFirstDatabase.csproj|c:\\users\\om.singh\\source\\repos\\codefirstdatabasesolution\\codefirstdatabase\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153FD988-8824-49C8-9CF0-EC315E3D6EB9}|CodeFirstDatabase\\CodeFirstDatabase.csproj|solutionrelative:codefirstdatabase\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153FD988-8824-49C8-9CF0-EC315E3D6EB9}|CodeFirstDatabase\\CodeFirstDatabase.csproj|c:\\users\\om.singh\\source\\repos\\codefirstdatabasesolution\\codefirstdatabase\\models\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153FD988-8824-49C8-9CF0-EC315E3D6EB9}|CodeFirstDatabase\\CodeFirstDatabase.csproj|solutionrelative:codefirstdatabase\\models\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153FD988-8824-49C8-9CF0-EC315E3D6EB9}|CodeFirstDatabase\\CodeFirstDatabase.csproj|c:\\users\\om.singh\\source\\repos\\codefirstdatabasesolution\\codefirstdatabase\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{153FD988-8824-49C8-9CF0-EC315E3D6EB9}|CodeFirstDatabase\\CodeFirstDatabase.csproj|solutionrelative:codefirstdatabase\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153FD988-8824-49C8-9CF0-EC315E3D6EB9}|CodeFirstDatabase\\CodeFirstDatabase.csproj|c:\\users\\om.singh\\source\\repos\\codefirstdatabasesolution\\codefirstdatabase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153FD988-8824-49C8-9CF0-EC315E3D6EB9}|CodeFirstDatabase\\CodeFirstDatabase.csproj|solutionrelative:codefirstdatabase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153FD988-8824-49C8-9CF0-EC315E3D6EB9}|CodeFirstDatabase\\CodeFirstDatabase.csproj|c:\\users\\om.singh\\source\\repos\\codefirstdatabasesolution\\codefirstdatabase\\migrations\\20241019172934_codefirstaddclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153FD988-8824-49C8-9CF0-EC315E3D6EB9}|CodeFirstDatabase\\CodeFirstDatabase.csproj|solutionrelative:codefirstdatabase\\migrations\\20241019172934_codefirstaddclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153FD988-8824-49C8-9CF0-EC315E3D6EB9}|CodeFirstDatabase\\CodeFirstDatabase.csproj|c:\\users\\om.singh\\source\\repos\\codefirstdatabasesolution\\codefirstdatabase\\migrations\\20241019171740_codefirstcreatedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153FD988-8824-49C8-9CF0-EC315E3D6EB9}|CodeFirstDatabase\\CodeFirstDatabase.csproj|solutionrelative:codefirstdatabase\\migrations\\20241019171740_codefirstcreatedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CodeFirstDatabaseSolution\\CodeFirstDatabase\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CodeFirstDatabase\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CodeFirstDatabaseSolution\\CodeFirstDatabase\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CodeFirstDatabase\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T17:31:57.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20241019172934_CodeFirstAddClass.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CodeFirstDatabaseSolution\\CodeFirstDatabase\\Migrations\\20241019172934_CodeFirstAddClass.cs",
+              "RelativeDocumentMoniker": "CodeFirstDatabase\\Migrations\\20241019172934_CodeFirstAddClass.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CodeFirstDatabaseSolution\\CodeFirstDatabase\\Migrations\\20241019172934_CodeFirstAddClass.cs",
+              "RelativeToolTip": "CodeFirstDatabase\\Migrations\\20241019172934_CodeFirstAddClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T17:29:34.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CodeFirstDatabaseSolution\\CodeFirstDatabase\\Models\\StudentDBContext.cs",
+              "RelativeDocumentMoniker": "CodeFirstDatabase\\Models\\StudentDBContext.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CodeFirstDatabaseSolution\\CodeFirstDatabase\\Models\\StudentDBContext.cs",
+              "RelativeToolTip": "CodeFirstDatabase\\Models\\StudentDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T20:20:23.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CodeFirstDatabaseSolution\\CodeFirstDatabase\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "CodeFirstDatabase\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CodeFirstDatabaseSolution\\CodeFirstDatabase\\Models\\Student.cs",
+              "RelativeToolTip": "CodeFirstDatabase\\Models\\Student.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T20:13:29.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241019171740_CodeFirstCreateDB.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CodeFirstDatabaseSolution\\CodeFirstDatabase\\Migrations\\20241019171740_CodeFirstCreateDB.cs",
+              "RelativeDocumentMoniker": "CodeFirstDatabase\\Migrations\\20241019171740_CodeFirstCreateDB.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CodeFirstDatabaseSolution\\CodeFirstDatabase\\Migrations\\20241019171740_CodeFirstCreateDB.cs",
+              "RelativeToolTip": "CodeFirstDatabase\\Migrations\\20241019171740_CodeFirstCreateDB.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T17:17:41.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CodeFirstDatabaseSolution\\CodeFirstDatabase\\appsettings.json",
+              "RelativeDocumentMoniker": "CodeFirstDatabase\\appsettings.json",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CodeFirstDatabaseSolution\\CodeFirstDatabase\\appsettings.json",
+              "RelativeToolTip": "CodeFirstDatabase\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-19T16:46:09.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\CodeFirstDatabaseSolution\\CodeFirstDatabase\\Program.cs",
+              "RelativeDocumentMoniker": "CodeFirstDatabase\\Program.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\CodeFirstDatabaseSolution\\CodeFirstDatabase\\Program.cs",
+              "RelativeToolTip": "CodeFirstDatabase\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T16:50:39.422Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
