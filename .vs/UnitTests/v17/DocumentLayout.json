@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\om.singh\\source\\repos\\UnitTests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{668B48A8-3DBE-4C36-B64B-7B78E22377F4}|NetworkUtility.Tests\\NetworkUtility.Tests.csproj|c:\\users\\om.singh\\source\\repos\\unittests\\networkutility.tests\\pingtests\\networkservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{668B48A8-3DBE-4C36-B64B-7B78E22377F4}|NetworkUtility.Tests\\NetworkUtility.Tests.csproj|solutionrelative:networkutility.tests\\pingtests\\networkservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A74D2677-5BE5-4BEA-BC69-3204E9C58330}|NetworkUtility\\NetworkUtility.csproj|c:\\users\\om.singh\\source\\repos\\unittests\\networkutility\\ping\\networkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A74D2677-5BE5-4BEA-BC69-3204E9C58330}|NetworkUtility\\NetworkUtility.csproj|solutionrelative:networkutility\\ping\\networkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A74D2677-5BE5-4BEA-BC69-3204E9C58330}|NetworkUtility\\NetworkUtility.csproj|c:\\users\\om.singh\\source\\repos\\unittests\\networkutility\\dns\\dnsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A74D2677-5BE5-4BEA-BC69-3204E9C58330}|NetworkUtility\\NetworkUtility.csproj|solutionrelative:networkutility\\dns\\dnsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A74D2677-5BE5-4BEA-BC69-3204E9C58330}|NetworkUtility\\NetworkUtility.csproj|c:\\users\\om.singh\\source\\repos\\unittests\\networkutility\\dns\\idns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A74D2677-5BE5-4BEA-BC69-3204E9C58330}|NetworkUtility\\NetworkUtility.csproj|solutionrelative:networkutility\\dns\\idns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NetworkServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\UnitTests\\NetworkUtility.Tests\\PingTests\\NetworkServiceTests.cs",
+              "RelativeDocumentMoniker": "NetworkUtility.Tests\\PingTests\\NetworkServiceTests.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\UnitTests\\NetworkUtility.Tests\\PingTests\\NetworkServiceTests.cs",
+              "RelativeToolTip": "NetworkUtility.Tests\\PingTests\\NetworkServiceTests.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T15:34:56.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NetworkService.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\UnitTests\\NetworkUtility\\Ping\\NetworkService.cs",
+              "RelativeDocumentMoniker": "NetworkUtility\\Ping\\NetworkService.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\UnitTests\\NetworkUtility\\Ping\\NetworkService.cs",
+              "RelativeToolTip": "NetworkUtility\\Ping\\NetworkService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T14:43:42.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDNS.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\UnitTests\\NetworkUtility\\DNS\\IDNS.cs",
+              "RelativeDocumentMoniker": "NetworkUtility\\DNS\\IDNS.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\UnitTests\\NetworkUtility\\DNS\\IDNS.cs",
+              "RelativeToolTip": "NetworkUtility\\DNS\\IDNS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T14:50:19.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DNSService.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\UnitTests\\NetworkUtility\\DNS\\DNSService.cs",
+              "RelativeDocumentMoniker": "NetworkUtility\\DNS\\DNSService.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\UnitTests\\NetworkUtility\\DNS\\DNSService.cs",
+              "RelativeToolTip": "NetworkUtility\\DNS\\DNSService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T14:45:44.079Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
