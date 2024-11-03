@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\om.singh\\source\\repos\\PresentationSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB1DE6AB-62AA-45F9-86AF-C55EAC4A48B2}|Presentation\\Presentation.csproj|c:\\users\\om.singh\\source\\repos\\presentationsolution\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB1DE6AB-62AA-45F9-86AF-C55EAC4A48B2}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB1DE6AB-62AA-45F9-86AF-C55EAC4A48B2}|Presentation\\Presentation.csproj|c:\\users\\om.singh\\source\\repos\\presentationsolution\\presentation\\userdetailspdfdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB1DE6AB-62AA-45F9-86AF-C55EAC4A48B2}|Presentation\\Presentation.csproj|solutionrelative:presentation\\userdetailspdfdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB1DE6AB-62AA-45F9-86AF-C55EAC4A48B2}|Presentation\\Presentation.csproj|c:\\users\\om.singh\\source\\repos\\presentationsolution\\presentation\\userinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB1DE6AB-62AA-45F9-86AF-C55EAC4A48B2}|Presentation\\Presentation.csproj|solutionrelative:presentation\\userinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDetailsPdfDocument.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\PresentationSolution\\Presentation\\UserDetailsPdfDocument.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserDetailsPdfDocument.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\PresentationSolution\\Presentation\\UserDetailsPdfDocument.cs",
+              "RelativeToolTip": "Presentation\\UserDetailsPdfDocument.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwDUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T08:36:33.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserInputs.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\PresentationSolution\\Presentation\\UserInputs.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserInputs.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\PresentationSolution\\Presentation\\UserInputs.cs",
+              "RelativeToolTip": "Presentation\\UserInputs.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T05:47:49.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\PresentationSolution\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\PresentationSolution\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T04:47:26.275Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
