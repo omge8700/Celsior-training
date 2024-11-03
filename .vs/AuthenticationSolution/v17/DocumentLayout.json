@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\om.singh\\source\\repos\\AuthenticationSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2958CF83-6440-492A-9898-7693E8BB2F9E}|Authentication\\Authentication.csproj|c:\\users\\om.singh\\source\\repos\\authenticationsolution\\authentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2958CF83-6440-492A-9898-7693E8BB2F9E}|Authentication\\Authentication.csproj|solutionrelative:authentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2958CF83-6440-492A-9898-7693E8BB2F9E}|Authentication\\Authentication.csproj|c:\\users\\om.singh\\source\\repos\\authenticationsolution\\authentication\\context\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2958CF83-6440-492A-9898-7693E8BB2F9E}|Authentication\\Authentication.csproj|solutionrelative:authentication\\context\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2958CF83-6440-492A-9898-7693E8BB2F9E}|Authentication\\Authentication.csproj|c:\\users\\om.singh\\source\\repos\\authenticationsolution\\authentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2958CF83-6440-492A-9898-7693E8BB2F9E}|Authentication\\Authentication.csproj|solutionrelative:authentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2958CF83-6440-492A-9898-7693E8BB2F9E}|Authentication\\Authentication.csproj|c:\\users\\om.singh\\source\\repos\\authenticationsolution\\authentication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2958CF83-6440-492A-9898-7693E8BB2F9E}|Authentication\\Authentication.csproj|solutionrelative:authentication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\AuthenticationSolution\\Authentication\\Program.cs",
+              "RelativeDocumentMoniker": "Authentication\\Program.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\AuthenticationSolution\\Authentication\\Program.cs",
+              "RelativeToolTip": "Authentication\\Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAiwCYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:57:51.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\AuthenticationSolution\\Authentication\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Authentication\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\AuthenticationSolution\\Authentication\\appsettings.Development.json",
+              "RelativeToolTip": "Authentication\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-03T14:58:41.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\AuthenticationSolution\\Authentication\\appsettings.json",
+              "RelativeDocumentMoniker": "Authentication\\appsettings.json",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\AuthenticationSolution\\Authentication\\appsettings.json",
+              "RelativeToolTip": "Authentication\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-03T14:58:38.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\AuthenticationSolution\\Authentication\\Context\\AuthDBContext.cs",
+              "RelativeDocumentMoniker": "Authentication\\Context\\AuthDBContext.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\AuthenticationSolution\\Authentication\\Context\\AuthDBContext.cs",
+              "RelativeToolTip": "Authentication\\Context\\AuthDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:54:33.918Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
