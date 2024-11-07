@@ -8,7 +8,7 @@ namespace BlogPlatform.Models
     {
         public int  userId { get; set; } 
 
-        public string username { get; set; } 
+        public string username { get; set; } = string.Empty;
 
         public string password { get; set; } = string.Empty;
 
