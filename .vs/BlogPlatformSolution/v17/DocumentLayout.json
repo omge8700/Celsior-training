@@ -1,145 +1,145 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\",
+  "WorkspaceRootPath": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\models\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\models\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\models\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\models\\dtos\\bloggerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\models\\dtos\\bloggerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\models\\dtos\\bloggerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\models\\dtos\\blogpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\models\\dtos\\blogpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\models\\dtos\\blogpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\models\\dtos\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\models\\dtos\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\models\\dtos\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\models\\dtos\\readerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\models\\dtos\\readerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\models\\dtos\\readerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\models\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\models\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\models\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\models\\blogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\models\\blogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\models\\blogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\services\\serviceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\services\\serviceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\services\\serviceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\repository\\readerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\repository\\readerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\repository\\readerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\repository\\bloggerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\repository\\bloggerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\repository\\bloggerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\interfaces\\iblogpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\interfaces\\iblogpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\interfaces\\iblogpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\interfaces\\ireaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\interfaces\\ireaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\interfaces\\ireaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\interfaces\\ibloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\interfaces\\ibloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\interfaces\\ibloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\context\\blogplatformcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\context\\blogplatformcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\context\\blogplatformcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\exceptions\\databaseupdateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\exceptions\\databaseupdateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\exceptions\\databaseupdateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\exceptions\\alreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\exceptions\\alreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\exceptions\\alreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\migrations\\20241105052744_blogmigration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\migrations\\20241105052744_blogmigration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\migrations\\20241105052744_blogmigration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\migrations\\blogplatformcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\migrations\\blogplatformcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\migrations\\blogplatformcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\migrations\\20241105052744_blogmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\migrations\\20241105052744_blogmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\migrations\\20241105052744_blogmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\repos\\blogplatformsolution\\blogplatform\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|c:\\users\\om.singh\\source\\pulledfiles\\celsior-training\\blogplatform\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BCF69D3-3BA6-4E77-A78C-3C02462A5F2E}|BlogPlatform\\BlogPlatform.csproj|solutionrelative:blogplatform\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -156,11 +156,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\User.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\User.cs",
               "RelativeToolTip": "BlogPlatform\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA8AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T07:14:09.351Z",
               "EditorCaption": ""
@@ -169,360 +169,333 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "BlogPost.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\BlogPost.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\BlogPost.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Models\\BlogPost.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\BlogPost.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\BlogPost.cs",
               "RelativeToolTip": "BlogPlatform\\Models\\BlogPost.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAkwBUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T14:49:22.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T14:49:22.155Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\DTOs\\LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\DTOs\\LoginDTO.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Models\\DTOs\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\DTOs\\LoginDTO.cs",
               "RelativeToolTip": "BlogPlatform\\Models\\DTOs\\LoginDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T15:51:24.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T15:51:24.607Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "BlogPostDTO.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\DTOs\\BlogPostDTO.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\DTOs\\BlogPostDTO.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Models\\DTOs\\BlogPostDTO.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\DTOs\\BlogPostDTO.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\DTOs\\BlogPostDTO.cs",
               "RelativeToolTip": "BlogPlatform\\Models\\DTOs\\BlogPostDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T15:56:24.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T15:56:24.572Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "BloggerDTO.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\DTOs\\BloggerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\DTOs\\BloggerDTO.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Models\\DTOs\\BloggerDTO.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\DTOs\\BloggerDTO.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\DTOs\\BloggerDTO.cs",
               "RelativeToolTip": "BlogPlatform\\Models\\DTOs\\BloggerDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T15:51:50.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T15:51:50.497Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Repository\\UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Repository\\UserRepository.cs",
               "RelativeToolTip": "BlogPlatform\\Repository\\UserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T09:50:04.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T09:50:04.195Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Reader.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\Reader.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\Reader.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Models\\Reader.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\Reader.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\Reader.cs",
               "RelativeToolTip": "BlogPlatform\\Models\\Reader.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T10:04:05.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T10:04:05.078Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "CommentDTO.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\DTOs\\CommentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\DTOs\\CommentDTO.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Models\\DTOs\\CommentDTO.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\DTOs\\CommentDTO.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\DTOs\\CommentDTO.cs",
               "RelativeToolTip": "BlogPlatform\\Models\\DTOs\\CommentDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T15:56:45.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T15:56:45.97Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Comment.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\Comment.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\Comment.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Models\\Comment.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\Comment.cs",
               "RelativeToolTip": "BlogPlatform\\Models\\Comment.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T15:20:52.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T15:20:52.293Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ReaderDTO.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\DTOs\\ReaderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\DTOs\\ReaderDTO.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Models\\DTOs\\ReaderDTO.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\DTOs\\ReaderDTO.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\DTOs\\ReaderDTO.cs",
               "RelativeToolTip": "BlogPlatform\\Models\\DTOs\\ReaderDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T15:52:12.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T15:52:12.345Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\DTOs\\RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\DTOs\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Models\\DTOs\\RegisterDTO.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\DTOs\\RegisterDTO.cs",
               "RelativeToolTip": "BlogPlatform\\Models\\DTOs\\RegisterDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T15:51:06.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T15:51:06.467Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\DTOs\\UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\DTOs\\UserDTO.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Models\\DTOs\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\DTOs\\UserDTO.cs",
               "RelativeToolTip": "BlogPlatform\\Models\\DTOs\\UserDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T15:50:48.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T15:50:48.518Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Blogger.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\Blogger.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\Blogger.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Models\\Blogger.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Models\\Blogger.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Models\\Blogger.cs",
               "RelativeToolTip": "BlogPlatform\\Models\\Blogger.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T07:15:06.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T07:15:06.422Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Services\\UserService.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Services\\UserService.cs",
               "RelativeToolTip": "BlogPlatform\\Services\\UserService.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T09:42:52.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T09:42:52.1Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "ServiceException.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Services\\ServiceException.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Services\\ServiceException.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Services\\ServiceException.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Services\\ServiceException.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Services\\ServiceException.cs",
               "RelativeToolTip": "BlogPlatform\\Services\\ServiceException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T11:33:41.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T11:33:41.064Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "CommentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Repository\\CommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Repository\\CommentRepository.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Repository\\CommentRepository.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Repository\\CommentRepository.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Repository\\CommentRepository.cs",
               "RelativeToolTip": "BlogPlatform\\Repository\\CommentRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T16:56:58.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T16:56:58.447Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "BloggerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Repository\\BloggerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Repository\\BloggerRepository.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Repository\\BloggerRepository.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Repository\\BloggerRepository.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Repository\\BloggerRepository.cs",
               "RelativeToolTip": "BlogPlatform\\Repository\\BloggerRepository.cs",
               "ViewState": "AQIAAC8AAAAAAAAAAAAIwEkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T16:20:12.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T16:20:12.647Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Interfaces\\IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Interfaces\\IUserService.cs",
               "RelativeToolTip": "BlogPlatform\\Interfaces\\IUserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T09:57:56.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T09:57:56.186Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "ReaderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Repository\\ReaderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Repository\\ReaderRepository.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Repository\\ReaderRepository.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Repository\\ReaderRepository.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Repository\\ReaderRepository.cs",
               "RelativeToolTip": "BlogPlatform\\Repository\\ReaderRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T09:31:23.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T09:31:23.533Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "ICommentService.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Interfaces\\ICommentService.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Interfaces\\ICommentService.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Interfaces\\ICommentService.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Interfaces\\ICommentService.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Interfaces\\ICommentService.cs",
               "RelativeToolTip": "BlogPlatform\\Interfaces\\ICommentService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T10:13:41.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T10:13:41.426Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "IBlogPostService.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Interfaces\\IBlogPostService.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Interfaces\\IBlogPostService.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Interfaces\\IBlogPostService.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Interfaces\\IBlogPostService.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Interfaces\\IBlogPostService.cs",
               "RelativeToolTip": "BlogPlatform\\Interfaces\\IBlogPostService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T10:12:44.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T10:12:44.183Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "IReaderService.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Interfaces\\IReaderService.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Interfaces\\IReaderService.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Interfaces\\IReaderService.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Interfaces\\IReaderService.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Interfaces\\IReaderService.cs",
               "RelativeToolTip": "BlogPlatform\\Interfaces\\IReaderService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T10:11:21.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T10:11:21.784Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "IBloggerService.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Interfaces\\IBloggerService.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Interfaces\\IBloggerService.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Interfaces\\IBloggerService.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Interfaces\\IBloggerService.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Interfaces\\IBloggerService.cs",
               "RelativeToolTip": "BlogPlatform\\Interfaces\\IBloggerService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T10:08:17.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T10:08:17.46Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Controllers\\UserController.cs",
               "RelativeToolTip": "BlogPlatform\\Controllers\\UserController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T08:53:48.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T08:53:48.79Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Interfaces\\IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Interfaces\\IRepository.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Interfaces\\IRepository.cs",
               "RelativeToolTip": "BlogPlatform\\Interfaces\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T06:51:43.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T06:51:43.31Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Program.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Program.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Program.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Program.cs",
               "RelativeToolTip": "BlogPlatform\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T04:37:06.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T04:37:06.128Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "BlogPlatformContext.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Context\\BlogPlatformContext.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Context\\BlogPlatformContext.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Context\\BlogPlatformContext.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Context\\BlogPlatformContext.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Context\\BlogPlatformContext.cs",
               "RelativeToolTip": "BlogPlatform\\Context\\BlogPlatformContext.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T16:13:53.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T16:13:53.038Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "DatabaseUpdateException.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Exceptions\\DatabaseUpdateException.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Exceptions\\DatabaseUpdateException.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Exceptions\\DatabaseUpdateException.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Exceptions\\DatabaseUpdateException.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Exceptions\\DatabaseUpdateException.cs",
               "RelativeToolTip": "BlogPlatform\\Exceptions\\DatabaseUpdateException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T12:02:51.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T12:02:51.378Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\appsettings.json",
               "RelativeDocumentMoniker": "BlogPlatform\\appsettings.json",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\appsettings.json",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\appsettings.json",
               "RelativeToolTip": "BlogPlatform\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAB/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -532,9 +505,9 @@
               "$type": "Document",
               "DocumentIndex": 29,
               "Title": "AlreadyExistsException.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Exceptions\\AlreadyExistsException.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Exceptions\\AlreadyExistsException.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Exceptions\\AlreadyExistsException.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Exceptions\\AlreadyExistsException.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Exceptions\\AlreadyExistsException.cs",
               "RelativeToolTip": "BlogPlatform\\Exceptions\\AlreadyExistsException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -544,9 +517,9 @@
               "$type": "Document",
               "DocumentIndex": 30,
               "Title": "NotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Exceptions\\NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Exceptions\\NotFoundException.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Exceptions\\NotFoundException.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Exceptions\\NotFoundException.cs",
               "RelativeToolTip": "BlogPlatform\\Exceptions\\NotFoundException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -556,9 +529,9 @@
               "$type": "Document",
               "DocumentIndex": 32,
               "Title": "BlogPlatformContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Migrations\\BlogPlatformContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Migrations\\BlogPlatformContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Migrations\\BlogPlatformContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Migrations\\BlogPlatformContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Migrations\\BlogPlatformContextModelSnapshot.cs",
               "RelativeToolTip": "BlogPlatform\\Migrations\\BlogPlatformContextModelSnapshot.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -568,9 +541,9 @@
               "$type": "Document",
               "DocumentIndex": 31,
               "Title": "20241105052744_blogMigration.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Migrations\\20241105052744_blogMigration.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Migrations\\20241105052744_blogMigration.Designer.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Migrations\\20241105052744_blogMigration.Designer.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Migrations\\20241105052744_blogMigration.Designer.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Migrations\\20241105052744_blogMigration.Designer.cs",
               "RelativeToolTip": "BlogPlatform\\Migrations\\20241105052744_blogMigration.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -580,9 +553,9 @@
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "20241105052744_blogMigration.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Migrations\\20241105052744_blogMigration.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Migrations\\20241105052744_blogMigration.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Migrations\\20241105052744_blogMigration.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Migrations\\20241105052744_blogMigration.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Migrations\\20241105052744_blogMigration.cs",
               "RelativeToolTip": "BlogPlatform\\Migrations\\20241105052744_blogMigration.cs",
               "ViewState": "AQIAAEAAAAAAAAAAAAAgwEAAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -592,9 +565,9 @@
               "$type": "Document",
               "DocumentIndex": 34,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "BlogPlatform\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "BlogPlatform\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
