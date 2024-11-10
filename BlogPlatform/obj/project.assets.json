@@ -2479,11 +2479,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\BlogPlatform.csproj",
+      "projectUniqueName": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\BlogPlatform.csproj",
       "projectName": "BlogPlatform",
-      "projectPath": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\BlogPlatform.csproj",
+      "projectPath": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\BlogPlatform.csproj",
       "packagesPath": "C:\\Users\\om.singh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\obj\\",
+      "outputPath": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\om.singh\\AppData\\Roaming\\NuGet\\NuGet.Config",

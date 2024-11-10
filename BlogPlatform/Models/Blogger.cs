@@ -1,42 +1,29 @@
 ﻿namespace BlogPlatform.Models
 {
-    public class Blogger : User
+    public class Blogger 
     {
+
+        public int BloggerID { get; set; }
+
+        public IEnumerable<BlogPost> blogPosts { get; set; } // each blogger will be represented by the blog post it has posted
+
+
+
         public int userId { get; set; }
 
-        public Blogger(int userId)
-        {
-            this.userId = userId;
-        }
-
-        public string bio { get; set; } = string.Empty;
-
-        public string profilePicture { get; set; } = string.Empty;
-
-        public long followercount { get; set; }
-
-        public BlogPost CreatePost(string title, string content, List<string> tags)
-        {
-            return new BlogPost(title, content,tags,userId);
+        public User User { get; set; }
 
 
-        }
 
-        public void EditPost(int postId, string newContent )
-        {
+        public string bio { get; set; } 
 
-        }
+        public string profilePicture { get; set; } 
 
-        public void DeletePost(int postId)
-        {
+        
 
+        
 
-        }
-
-        public void ModerateComments(int postId)
-        {
-
-        }
+        
       
     }
 }

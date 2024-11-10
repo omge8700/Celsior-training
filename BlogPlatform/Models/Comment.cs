@@ -7,8 +7,8 @@ namespace BlogPlatform.Models
         [Key]
         public int CommentId { get; set; }
 
-        public string Content { get; set; }
-
+        public string CommentContent { get; set; }
+        public string Content { get; private set; }
         public int AuthorId { get; set; }
 
         public int PostId {  get; set; }
@@ -26,27 +26,27 @@ namespace BlogPlatform.Models
             Likes = 0;
 
         }
-        public void AddComment()
-        {
+        //public void AddComment()
+        //{
 
-        }
+        //}
 
-        public void EditComment (string newContent)
-        {
-            Content = newContent;
+        //public void EditComment (string newContent)
+        //{
+        //    Content = newContent;
 
-        }
+        //}
 
-        public void DeleteComment()
-        {
+        //public void DeleteComment()
+        //{
 
-        }
+        //}
 
-        public void LikeComment()
-        {
-            Likes++;
+        //public void LikeComment()
+        //{
+        //    Likes++;
 
-        }
+        //}
     }
 
 }

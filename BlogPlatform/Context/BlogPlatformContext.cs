@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using BlogPlatform.Models;
+using System.Xml.Linq;
 
 
 namespace BlogPlatform.Context
@@ -12,7 +13,7 @@ namespace BlogPlatform.Context
 
         public DbSet<User> Users { get; set; }
 
-        public DbSet<Blogger> Blogs { get; set; }
+        public DbSet<Blogger> Bloggers { get; set; }
 
         public DbSet<Reader> Readers { get; set; }
 
@@ -22,23 +23,62 @@ namespace BlogPlatform.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            //       modelBuilder.Entity<User>()
+            //         .HasOne<Blogger>()
+
+            //         .WithOne()
+            //         .HasForeignKey<Blogger>(c => c.userId)
+            //         .OnDelete(DeleteBehavior.Cascade);
+            ////        .HasForeignKey<Blogger>(b => b.userId);
+
+            //        modelBuilder.Entity<Blogger>()
+            //          .HasOne<User>()
+            //          .WithOne()
+            //          .HasForeignKey<BlogPost>(r => r.PostId)
+            //          .OnDelete(DeleteBehavior .Cascade);
+            //        modelBuilder.Entity<BlogPost>()
+            //           .HasOne<User>()
+            //           .WithMany()
+            //           .HasForeignKey(r => r.PostId)
+            //           .OnDelete(DeleteBehavior.Cascade);
+
+
+
+            //   .HasForeignKey(bp => bp.AuthorId);
+            //    modelBuilder.Entity<Comment>()
+            //        .HasOne<User>()
+            //        .WithMany()
+            //        .HasForeignKey(c => c.AuthorId);
+
             modelBuilder.Entity<Blogger>()
-                .HasOne<User>()
-                .WithOne()
-                .HasForeignKey<Blogger>(b => b.userId);
+                .HasOne(b => b.User)
+                .WithMany(u => u.Bloggers)
+                .HasForeignKey(b => b.userId);
+                
 
             modelBuilder.Entity<Reader>()
                 .HasOne<User>()
-                .WithOne()
-                .HasForeignKey<Reader>(r => r.userId);
+                .WithMany()
+                .HasForeignKey(r => r.userId)
+                .OnDelete(DeleteBehavior.Cascade);
+
             modelBuilder.Entity<BlogPost>()
-                .HasOne<User>()
+                .HasOne<Blogger>()
                 .WithMany()
-                .HasForeignKey(bp => bp.AuthorId);
+                .HasForeignKey(bp => bp.PostId)
+                .OnDelete(DeleteBehavior.Cascade);
+
             modelBuilder.Entity<Comment>()
-                .HasOne<User>()
+                .HasOne<BlogPost>()
                 .WithMany()
-                .HasForeignKey(c => c.AuthorId);
+                .HasForeignKey(c => c.PostId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Comment>()
+                .HasOne<Reader>()
+                .WithMany()
+                .HasForeignKey(c =>c.PostId)
+                .OnDelete(DeleteBehavior.Cascade);
 
 
         }

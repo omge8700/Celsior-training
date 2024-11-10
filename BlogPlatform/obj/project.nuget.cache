@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QCNU+gJHDEM=",
+  "dgSpecHash": "4uDS81PJ3MM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\om.singh\\source\\repos\\BlogPlatformSolution\\BlogPlatform\\BlogPlatform.csproj",
+  "projectFilePath": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BlogPlatform\\BlogPlatform.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\om.singh\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\om.singh\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.8\\microsoft.aspnetcore.authentication.jwtbearer.6.0.8.nupkg.sha512",

@@ -7,73 +7,77 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BlogPlatform.Repository
 {
-    public class UserRepository : IRepository <User>
+    public class UserRepository : IRepository<string, User>
     {
-        private readonly BlogPlatformContext _context;
+        private readonly  BlogPlatformContext _context;
 
-        public UserRepository(BlogPlatformContext context  )
+        public UserRepository(BlogPlatformContext context)
         {
             _context = context;
         }
-
-        public async Task<User> GetByIdAsync(int userId )
+        public async Task<User> Add(User entity)
         {
-            var user = await _context.Users.FindAsync(userId);
-            if (user == null)
+            try
             {
-                throw new NotFoundException($"User with ID {userId} not found.");
+                var user = _context.Users.FirstOrDefault(x => x.email == entity.email );
+                if (user == null)
+                {
+                    await _context.Users.AddAsync(entity);
+                    await _context.SaveChangesAsync();
+                    return entity;
+                }
+                else
+                {
+                    throw new InvalidOperationException("User already Exist.... Please LogIn");
+                }
             }
+            catch (Exception ex)
+            {
+                throw new Exception($"User Add Failed....{ex.Message}");
+            }
+        }
+
+        public async Task<User> Delete(string key)
+        {
+            var deletedUser = await Get(key);
+            if (deletedUser != null)
+            {
+                _context.Users.Remove(deletedUser);
+                await _context.SaveChangesAsync();
+                return deletedUser;
+            }
+            throw new Exception("Delete Failed");
+        }
+
+        public async Task<User> Get(string key)
+        {
+            var user = _context.Users.FirstOrDefault(x => x.email == key);
             return user;
         }
 
-        public async Task<IEnumerable<User>> GetAllAsync()
+        public async Task<IEnumerable<User>> GetAll()
         {
-            return await _context.Users.ToListAsync();
+            var users = _context.Users.ToList();
+            if (users.Any())
+            {
+                return users;
+            }
+            throw new Exception("Users Collection Empty");
         }
 
-        public async Task AddAsync(User user)
+        public async Task<User> Update(User entity, string key)
         {
-            try
+            var updatedUser = await Get(key);
+            if (updatedUser != null)
             {
-                await _context.Users.AddAsync(user);
+                updatedUser.email = entity.email;
+                updatedUser.username = entity.username;
+                updatedUser.password = entity.password;
+
                 await _context.SaveChangesAsync();
+                return updatedUser;
             }
-            catch (DatabaseUpdateException ex)
-            {
-                throw new DatabaseUpdateException("An error occurred while adding the user.", ex);
-            }
-
-
+            throw new Exception("Update Failed");
         }
-
-        public async Task UpdateAsync(User user)
-        {
-            var existingUser = await GetByIdAsync(user.userId);
-            if (existingUser == null)
-            {
-                throw new NotFoundException($"User with ID {user.userId} not found.");
-            }
-
-            try
-            {
-                _context.Users.Update(user);
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateException ex)
-            {
-                throw new DatabaseUpdateException("An error occurred while updating the user.", ex);
-            }
-        }
-
-        public async Task DeleteAsync(int userId)
-        {
-            var user = await GetByIdAsync(userId);
-            _context.Users.Remove(user);
-            await _context.SaveChangesAsync();
-        }
-
-
-
-
     }
 }

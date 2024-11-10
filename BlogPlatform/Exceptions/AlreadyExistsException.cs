@@ -5,9 +5,9 @@
     {
 
         string _message;
-        public AlreadyExistsException(string entityName)
+        public AlreadyExistsException(string message)
         {
-            _message = $"{entityName} The item already exits";
+           this._message = message;
         }
 
 

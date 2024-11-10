@@ -2,7 +2,12 @@ using BlogPlatform.Context;
 using BlogPlatform.Interfaces;
 using BlogPlatform.Models;
 using BlogPlatform.Repository;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using BlogPlatform.Services;
 
 
 
@@ -19,12 +24,29 @@ builder.Services.AddDbContext<BlogPlatformContext>(options =>
 #endregion
 
 #region Repositories
-builder.Services.AddScoped<IRepository<User>, UserRepository>();
-builder.Services.AddScoped<IRepository<Blogger>, BloggerRepository>();
-builder.Services.AddScoped<IRepository<Reader>, ReaderRepository>();
-builder.Services.AddScoped<IRepository<BlogPost>, BlogPostRepository>();
-builder.Services.AddScoped<IRepository<Comment>, CommentRepository>();
+builder.Services.AddScoped<IRepository<string,User>, UserRepository>();
+//builder.Services.AddScoped<IRepository<int,Blogger>, BloggerRepository>();
+//builder.Services.AddScoped<IRepository<Reader>, ReaderRepository>();
+//builder.Services.AddScoped<IRepository<BlogPost>, BlogPostRepository>();
+//builder.Services.AddScoped<IRepository<Comment>, CommentRepository>();
 #endregion
+
+#region Authentication
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(option =>
+    {
+        option.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = false,
+            ValidateAudience = false,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:SecretKey"]))
+        };
+    });
+#endregion
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ITokenService, TokenService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BlogPlatform.Repository
 {
-    public class CommentRepository : IRepository<Comment>
+    public class CommentRepository : IRepository<int,Comment>
     {
         private readonly BlogPlatformContext _context;
 
@@ -67,6 +67,31 @@ namespace BlogPlatform.Repository
             var comment = await GetByIdAsync(commentId);
             _context.BlogComments.Remove(comment);
             await _context.SaveChangesAsync();
+        }
+
+        public Task<Comment> Add(Comment entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Comment> Update(Comment entity, int key)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Comment> Delete(int key)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Comment> Get(int key)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<Comment>> GetAll()
+        {
+            throw new NotImplementedException();
         }
     }
 }

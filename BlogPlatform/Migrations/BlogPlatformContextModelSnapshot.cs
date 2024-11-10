@@ -50,8 +50,6 @@ namespace BlogPlatform.Migrations
 
                     b.HasKey("PostId");
 
-                    b.HasIndex("AuthorId");
-
                     b.ToTable("BlogPosts");
                 });
 
@@ -81,8 +79,6 @@ namespace BlogPlatform.Migrations
 
                     b.HasKey("CommentId");
 
-                    b.HasIndex("AuthorId");
-
                     b.ToTable("BlogComments");
                 });
 
@@ -98,13 +94,17 @@ namespace BlogPlatform.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<byte[]>("HashKey")
+                        .IsRequired()
+                        .HasColumnType("varbinary(max)");
+
                     b.Property<string>("email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("password")
+                    b.Property<byte[]>("password")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("varbinary(max)");
 
                     b.Property<string>("role")
                         .IsRequired()
@@ -152,42 +152,6 @@ namespace BlogPlatform.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("Reader");
-                });
-
-            modelBuilder.Entity("BlogPlatform.Models.BlogPost", b =>
-                {
-                    b.HasOne("BlogPlatform.Models.User", null)
-                        .WithMany()
-                        .HasForeignKey("AuthorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("BlogPlatform.Models.Comment", b =>
-                {
-                    b.HasOne("BlogPlatform.Models.User", null)
-                        .WithMany()
-                        .HasForeignKey("AuthorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("BlogPlatform.Models.Blogger", b =>
-                {
-                    b.HasOne("BlogPlatform.Models.User", null)
-                        .WithOne()
-                        .HasForeignKey("BlogPlatform.Models.Blogger", "userId")
-                        .OnDelete(DeleteBehavior.ClientCascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("BlogPlatform.Models.Reader", b =>
-                {
-                    b.HasOne("BlogPlatform.Models.User", null)
-                        .WithOne()
-                        .HasForeignKey("BlogPlatform.Models.Reader", "userId")
-                        .OnDelete(DeleteBehavior.ClientCascade)
-                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

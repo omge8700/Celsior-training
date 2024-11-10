@@ -9,6 +9,9 @@ namespace BlogPlatform.Models
         [Key]
         public int PostId { get; set; }
 
+       
+      
+
         public string Title { get; set; }
 
         public string Content { get; set; }
@@ -27,43 +30,43 @@ namespace BlogPlatform.Models
 
         public string Status {  get; set; }
 
-        public BlogPost()
-        {
+        //public BlogPost()
+        //{
             
-        }
-        public BlogPost(string title,string content ,List<string> tags ,int authorId )
-        {
-            Title = title;
-            Content = content;
+        //}
+        //public BlogPost(string title,string content ,List<string> tags ,int authorId )
+        //{
+        //    Title = title;
+        //    Content = content;
 
-            Tags = tags;
-            AuthorId = authorId;
+        //    Tags = tags;
+        //    AuthorId = authorId;
 
-            PublicationDate = DateTime.Now;
+        //    PublicationDate = DateTime.Now;
 
-            Status = "public ";
+        //    Status = "public ";
             
-        }
+        //}
 
-        public void Publish()
-        {
-            Status = "public ";
-        }
+        //public void Publish()
+        //{
+        //    Status = "public ";
+        //}
 
-        public void Schedule(DateTime date)
-        {
-            Status = "scheduled";
-        }
+        //public void Schedule(DateTime date)
+        //{
+        //    Status = "scheduled";
+        //}
 
-        public void Edit(string newContent)
-        {
-            Content = newContent;
+        //public void Edit(string newContent)
+        //{
+        //    Content = newContent;
 
-        }
+        //}
 
-        public void Delete()
-        {
+        //public void Delete()
+        //{
 
-        }
+        //}
     }
 }
