@@ -15,17 +15,18 @@
                this.userId = userId;
                this.postId = postId;
         }
+        public string commentonpost { get; set; }
 
-        public void FollowBlogger(int bloggerId)
-        {
+        //public void FollowBlogger(int bloggerId)
+        //{
 
-        }
+        //}
 
-        public Comment CommentOnPost(int postId ,string content)
-        {
-            return new Comment(content, userId, postId);
+        //public Comment CommentOnPost(int postId ,string content)
+        //{
+        //    return new Comment(content, userId, postId);
 
-        }
+        //}
 
         //public void LikePost (int postId)
         //{

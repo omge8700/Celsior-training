@@ -62,11 +62,11 @@ namespace BlogPlatform.Controllers
 
         [HttpGet("BlogPostId")]
 
-        public async Task<IActionResult> GetPostId(BloggerDTO getblogid, int PostId)
+        public async Task<IActionResult> GetPostId( int PostId)
         {
             try
             {
-                var getBlogId = await _blogPostService.GetPostByIdAsync(getBlogId);
+                var getBlogId = await _blogPostService.GetPostByIdAsync(PostId);
                 return Ok(getBlogId);
 
             }

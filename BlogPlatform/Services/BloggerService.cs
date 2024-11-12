@@ -68,28 +68,26 @@ namespace BlogPlatform.Services
 
         public  async  Task<Blogger> GetBloggerByIdAsync(int BloggerID )
         {
-            try
-            {
+           
+            
                 var checkbloggerid = await _bloggerrepo.Get(BloggerID);
                 if (checkbloggerid == null)
                 {
                     throw new Exception($"The blogger id entered is incorrect");
                 }
 
-                var getbloggerdetails = await _bloggerrepo.Get(BloggerID);
+                return checkbloggerid;
 
-                return getbloggerdetails;
-            }
-            catch
-            {
-                throw new Exception("The blogger cannot be found ");
-            }
+               
+          
 
         }
 
-        public async Task<IEnumerable<Blogger>> GetBloggerListAsync(int BloggerID)
+        public async Task<IEnumerable<Blogger>> GetBloggerListAsync()
         {
-            throw new Exception("The blogger cannot be found ");
+            var getbloggerlist = await _bloggerrepo.GetAll();
+            return getbloggerlist;
+
 
 
 
@@ -100,22 +98,32 @@ namespace BlogPlatform.Services
             try
             {
                 var checkbloggeridupdate = await _bloggerrepo.Get(BloggerID);
-                if(checkbloggeridupdate == null)
+                if (checkbloggeridupdate == null)
                 {
                     throw new Exception($"Blogger Cannot be found with blogger id :{BloggerID}");
                 }
-                BloggerDTO updateblogger = new BloggerDTO()
+                Blogger updateblogger = new Blogger()
                 {
-                    Bio = blogger.Bio,
-                    ProfilePicture = blogger.ProfilePicture,
+                    bio = blogger.Bio,
+                    profilePicture = blogger.ProfilePicture,
 
                 };
 
-                var updatedBlogger = await _bloggerrepo.Update(updateblogger);
+                var updatedBlogger = await _bloggerrepo.Update( updateblogger, BloggerID);
+
+                return $"The blogger is updated with the profile :{BloggerID}";
 
 
             }
+
+            catch (Exception ex)
+            {
+
+                throw new Exception("Could not update the blogger");
+            }
            
         }
+
+       
     }
 }

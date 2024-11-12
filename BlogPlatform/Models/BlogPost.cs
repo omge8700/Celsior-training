@@ -10,7 +10,7 @@ namespace BlogPlatform.Models
         public int PostId { get; set; }
 
        
-      
+        public IEnumerable<Comment> Comments { get; set; } 
 
         public string Title { get; set; }
 

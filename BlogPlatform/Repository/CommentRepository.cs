@@ -6,92 +6,88 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BlogPlatform.Repository
 {
-    public class CommentRepository : IRepository<int,Comment>
+    public class CommentRepository : IRepository<int, Comment>
+
     {
         private readonly BlogPlatformContext _context;
 
-        public CommentRepository(BlogPlatformContext context)
+        public CommentRepository(BlogPlatformContext  context)
         {
             _context = context;
+            
         }
 
-        public async Task<Comment> GetByIdAsync(int commentId)
-        {
-            var comment = await _context.BlogComments.FindAsync(commentId);
-            if (comment == null)
-            {
-                throw new NotFoundException($"Comment with ID {commentId} not found.");
-            }
-            return comment;
-        }
-
-        public async Task<IEnumerable<Comment>> GetAllAsync()
-        {
-            return await _context.BlogComments.ToListAsync();
-        }
-
-        public async Task AddAsync(Comment comment)
+        public async  Task<Comment> Add(Comment entity)
         {
             try
             {
-                await _context.BlogComments.AddAsync(comment);
+                var commentonpost = _context.BlogComments.FirstOrDefault(x => x.CommentId == entity.CommentId);
+                if (commentonpost != null) {
+
+                    await _context.BlogComments.AddAsync(entity);
+                    await _context.SaveChangesAsync();
+                    return entity;
+                }
+                else
+                {
+                    throw new Exception("Comment could not be found ");
+                }
+
+            }
+            catch (Exception ex) 
+            {
+                throw new Exception($"Comment could not be added");
+
+            }
+            
+        }
+
+        public async Task<Comment> Delete(int key)
+        {
+            var deletecomment = await Get(key);
+            if (deletecomment != null)
+            {
+                _context.BlogComments.Remove(deletecomment);
                 await _context.SaveChangesAsync();
+                return deletecomment;
+
             }
-            catch (DbUpdateException ex)
-            {
-                throw new DatabaseUpdateException("An error occurred while adding the comment.", ex);
-            }
+            throw new Exception("Comment  Delete Failed");
+
         }
 
-        public async Task UpdateAsync(Comment comment)
+        public async Task<Comment> Get(int key)
         {
-            var existingComment = await GetByIdAsync(comment.CommentId);
-            if (existingComment == null)
-            {
-                throw new NotFoundException($"Comment with ID {comment.CommentId} not found.");
-            }
+           var gettingcomment = _context.BlogComments.FirstOrDefault(x=>x.CommentId == key);
+            return gettingcomment;
+        }
 
-            try
+        public async Task<IEnumerable<Comment>> GetAll()
+        {
+            var getcomment = _context.BlogComments.ToList();
+            if (getcomment.Any())
             {
-                _context.BlogComments.Update(comment);
+                return getcomment;
+            }
+            throw new Exception("Comments Collection is empty");
+
+        }
+
+        public async Task<Comment> Update(Comment entity, int key)
+        {
+            var updatecomment = await Get(key);
+            if (updatecomment != null)
+            {
+                
+              
+                updatecomment.Content = entity.Content;
                 await _context.SaveChangesAsync();
+                return updatecomment;
+
+
             }
-            catch (DbUpdateException ex)
-            {
-                throw new DatabaseUpdateException("An error occurred while updating the comment.", ex);
-            }
-        }
+            throw new Exception("Update post failed");
 
-        public async Task DeleteAsync(int commentId)
-        {
-            var comment = await GetByIdAsync(commentId);
-            _context.BlogComments.Remove(comment);
-            await _context.SaveChangesAsync();
-        }
-
-        public Task<Comment> Add(Comment entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<Comment> Update(Comment entity, int key)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<Comment> Delete(int key)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<Comment> Get(int key)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IEnumerable<Comment>> GetAll()
-        {
-            throw new NotImplementedException();
         }
     }
 }

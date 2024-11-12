@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using BlogPlatform.Models;
+using BlogPlatform.Models.DTOs;
 
 
 namespace BlogPlatform.Interfaces
@@ -9,8 +10,8 @@ namespace BlogPlatform.Interfaces
     {
         Task<Reader> GetReaderByIdAsync(int readerId);
         Task<IEnumerable<Reader>> GetAllReadersAsync();
-        Task AddReaderAsync(Reader reader);
-        Task UpdateReaderAsync(Reader reader);
+        Task <string>AddReaderAsync(ReaderDTO reader);
+        Task <string> UpdateReaderAsync(ReaderDTO reader);
         Task DeleteReaderAsync(int readerId);
 
     }

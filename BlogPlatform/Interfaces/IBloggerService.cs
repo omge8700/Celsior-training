@@ -8,9 +8,9 @@ namespace BlogPlatform.Interfaces
 {
     public interface IBloggerService
     {
-        Task<BloggerDTO> GetBloggerByIdAsync(int BloggerId);
+        Task<Blogger> GetBloggerByIdAsync(int BloggerId);
 
-        Task<IEnumerable<BloggerDTO>> GetBloggerListAsync(int BloggerID );
+        Task<IEnumerable<Blogger>> GetBloggerListAsync( );
 
         Task <string>AddBloggerAsync(BloggerDTO blogger,int BloggerId);
 

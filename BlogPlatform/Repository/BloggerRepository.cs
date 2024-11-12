@@ -4,6 +4,7 @@ using BlogPlatform.Interfaces;
 using BlogPlatform.Models;
 using BlogPlatform.Models.DTOs;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace BlogPlatform.Repository
 {
@@ -17,111 +18,86 @@ namespace BlogPlatform.Repository
             _context = context;
         }
 
-        public async Task<Blogger> GetByIdAsync(int bloggerId)
-        {
-            var blogger = await _context.Bloggers.FindAsync(bloggerId);
-            if (blogger == null)
-            {
-                throw new NotFoundException($"Blogger with ID {bloggerId} not found.");
-            }
-            return blogger;
-
-        }
-
        
-
-        public async Task<Blogger> AddAsync(Blogger blogger)
+        
+        public async Task<Blogger> Add(Blogger entity)
         {
-
             try
             {
-                var addblogger = _context.Bloggers.FirstOrDefault(x=>x.BloggerID == blogger.BloggerID);
-                if (addblogger == null)
-                {
-
-
-
-                    await _context.Bloggers.AddAsync(blogger);
+              
+               
+                    await _context.Bloggers.AddAsync(entity);
                     await _context.SaveChangesAsync();
-                    return blogger;
-                }
-                else
-                {
-                    throw new DatabaseUpdateException("An error occurred while adding the blogger.",null);
-                }
+                    return entity;
+                
+                
+                
 
 
             }
             catch (DbUpdateException ex)
             {
                 throw new Exception($"Blogger already exists");
-                
+
             }
         }
 
-        public async Task<Blogger> UpdateAsync(BloggerDTO blogger,int BloggerID)
+        public async Task<Blogger> Update(Blogger entity, int key)
         {
-            var existingBlogger = await GetByIdAsync(blogger.BloggerID);
-            if (existingBlogger == null)
+            var existingBlogger = await  Get(key);
+            if (existingBlogger != null)
             {
-                existingBlogger.bio= blogger.Bio;
-                existingBlogger.profilePicture= blogger.ProfilePicture;
+                existingBlogger.bio = entity.bio;
+                existingBlogger.profilePicture = entity.profilePicture;
 
                 await _context.SaveChangesAsync();
                 return existingBlogger;
 
             }
 
-            throw new DatabaseUpdateException("An error occurred while updating the blogger.",null);
-            
+            throw new DatabaseUpdateException("An error occurred while updating the blogger.", null);
+
         }
 
-        public async Task<string > DeleteAsync(int bloggerId)
+        public async  Task<Blogger> Delete(int key)
         {
 
-            var blogger = await GetByIdAsync(bloggerId);
-            if(blogger == null)
+            var blogger = await Get(key);
+            if (blogger != null)
             {
                 _context.Bloggers.Remove(blogger);
                 await _context.SaveChangesAsync();
 
-                return $"The Blogger is removed with blogger id :{blogger.BloggerID}";
+                return blogger;
 
             }
 
             throw new Exception("Blogger delete failed");
 
-           
+
         }
 
-        public Task UpdateAsync(Blogger entity)
+        public async Task<Blogger> Get(int key)
         {
-            throw new NotImplementedException();
+            var blogger = await _context.Bloggers.FirstOrDefaultAsync(x=>x.BloggerID==key);
+            if (blogger == null)
+            {
+                throw new NotFoundException($"Blogger with ID {key} not found.");
+            }
+            return blogger;
+
+
         }
 
-        public Task<Blogger> Add(Blogger entity)
+        public async Task<IEnumerable<Blogger>> GetAll()
         {
-            throw new NotImplementedException();
-        }
+           var allbloggers = await _context.Bloggers.ToListAsync();
+           if(allbloggers.Count > 0)
+            {
+                return allbloggers;
+            }
 
-        public Task<Blogger> Update(Blogger entity, int key)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<Blogger> Delete(int key)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<Blogger> Get(int key)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IEnumerable<Blogger>> GetAll()
-        {
-            throw new NotImplementedException();
+            throw new Exception($"not found the list");
         }
     }
 

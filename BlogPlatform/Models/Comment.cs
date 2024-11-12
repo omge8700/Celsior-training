@@ -7,25 +7,25 @@ namespace BlogPlatform.Models
         [Key]
         public int CommentId { get; set; }
 
-        public string CommentContent { get; set; }
-        public string Content { get; private set; }
+        
+        public string Content { get;  set; }
         public int AuthorId { get; set; }
 
         public int PostId {  get; set; }
 
         public DateTime Timestampt { get; set; }
 
-        public int Likes { get; set; }
+        public int Likes { get; set; } = 0;
 
-        public Comment (string content ,int authorId,int postId)
-        {
-            Content = content;
-            AuthorId = authorId;
-            PostId = postId;
-            Timestampt = DateTime.Now;
-            Likes = 0;
+        //public Comment (string content ,int authorId,int postId)
+        //{
+        //    Content = content;
+        //    AuthorId = authorId;
+        //    PostId = postId;
+        //    Timestampt = DateTime.Now;
+        //    Likes = 0;
 
-        }
+        //}
         //public void AddComment()
         //{
 
