@@ -23,7 +23,7 @@ namespace BlogPlatform.Services
                 Title = blogpost.Title,
                 Content = blogpost.Content,
                 Tags = blogpost.Tags,
-                AuthorId = blogpost.AuthorId,
+                BloggerID = blogpost.BloggerID,
                 Status = blogpost.Status,
                 PublicationDate = DateTime.Now,
 

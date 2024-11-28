@@ -22,6 +22,33 @@ namespace BlogPlatform.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("BlogPlatform.Models.Blogger", b =>
+                {
+                    b.Property<int>("BloggerID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BloggerID"), 1L, 1);
+
+                    b.Property<string>("bio")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("profilePicture")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("userId")
+                        .HasColumnType("int");
+
+                    b.HasKey("BloggerID");
+
+                    b.HasIndex("userId")
+                        .IsUnique();
+
+                    b.ToTable("Bloggers");
+                });
+
             modelBuilder.Entity("BlogPlatform.Models.BlogPost", b =>
                 {
                     b.Property<int>("PostId")
@@ -30,7 +57,7 @@ namespace BlogPlatform.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PostId"), 1L, 1);
 
-                    b.Property<int>("AuthorId")
+                    b.Property<int>("BloggerID")
                         .HasColumnType("int");
 
                     b.Property<string>("Content")
@@ -50,6 +77,8 @@ namespace BlogPlatform.Migrations
 
                     b.HasKey("PostId");
 
+                    b.HasIndex("BloggerID");
+
                     b.ToTable("BlogPosts");
                 });
 
@@ -61,9 +90,6 @@ namespace BlogPlatform.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CommentId"), 1L, 1);
 
-                    b.Property<int>("AuthorId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Content")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -74,12 +100,52 @@ namespace BlogPlatform.Migrations
                     b.Property<int>("PostId")
                         .HasColumnType("int");
 
+                    b.Property<int>("ReaderID")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("Timestampt")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("blogPostPostId")
+                        .HasColumnType("int");
+
                     b.HasKey("CommentId");
 
-                    b.ToTable("BlogComments");
+                    b.HasIndex("ReaderID");
+
+                    b.HasIndex("blogPostPostId");
+
+                    b.ToTable("Comment");
+                });
+
+            modelBuilder.Entity("BlogPlatform.Models.Reader", b =>
+                {
+                    b.Property<int>("ReaderID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ReaderID"), 1L, 1);
+
+                    b.Property<string>("Avatar")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PersonalInfo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("postId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("userId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ReaderID");
+
+                    b.HasIndex("userId")
+                        .IsUnique();
+
+                    b.ToTable("Readers");
                 });
 
             modelBuilder.Entity("BlogPlatform.Models.User", b =>
@@ -89,10 +155,6 @@ namespace BlogPlatform.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("userId"), 1L, 1);
-
-                    b.Property<string>("Discriminator")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<byte[]>("HashKey")
                         .IsRequired()
@@ -117,41 +179,82 @@ namespace BlogPlatform.Migrations
                     b.HasKey("userId");
 
                     b.ToTable("Users");
-
-                    b.HasDiscriminator<string>("Discriminator").HasValue("User");
                 });
 
             modelBuilder.Entity("BlogPlatform.Models.Blogger", b =>
                 {
-                    b.HasBaseType("BlogPlatform.Models.User");
+                    b.HasOne("BlogPlatform.Models.User", "User")
+                        .WithOne("Blogger")
+                        .HasForeignKey("BlogPlatform.Models.Blogger", "userId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Property<string>("bio")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Navigation("User");
+                });
 
-                    b.Property<long>("followercount")
-                        .HasColumnType("bigint");
+            modelBuilder.Entity("BlogPlatform.Models.BlogPost", b =>
+                {
+                    b.HasOne("BlogPlatform.Models.Blogger", "Blogger")
+                        .WithMany("blogPosts")
+                        .HasForeignKey("BloggerID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Property<string>("profilePicture")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Navigation("Blogger");
+                });
 
-                    b.HasDiscriminator().HasValue("Blogger");
+            modelBuilder.Entity("BlogPlatform.Models.Comment", b =>
+                {
+                    b.HasOne("BlogPlatform.Models.Reader", "Reader")
+                        .WithMany("Comments")
+                        .HasForeignKey("ReaderID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("BlogPlatform.Models.BlogPost", "blogPost")
+                        .WithMany("Comments")
+                        .HasForeignKey("blogPostPostId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Reader");
+
+                    b.Navigation("blogPost");
                 });
 
             modelBuilder.Entity("BlogPlatform.Models.Reader", b =>
                 {
-                    b.HasBaseType("BlogPlatform.Models.User");
+                    b.HasOne("BlogPlatform.Models.User", "user")
+                        .WithOne("Reader")
+                        .HasForeignKey("BlogPlatform.Models.Reader", "userId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Property<string>("Avatar")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Navigation("user");
+                });
 
-                    b.Property<string>("PersonalInfo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+            modelBuilder.Entity("BlogPlatform.Models.Blogger", b =>
+                {
+                    b.Navigation("blogPosts");
+                });
 
-                    b.HasDiscriminator().HasValue("Reader");
+            modelBuilder.Entity("BlogPlatform.Models.BlogPost", b =>
+                {
+                    b.Navigation("Comments");
+                });
+
+            modelBuilder.Entity("BlogPlatform.Models.Reader", b =>
+                {
+                    b.Navigation("Comments");
+                });
+
+            modelBuilder.Entity("BlogPlatform.Models.User", b =>
+                {
+                    b.Navigation("Blogger")
+                        .IsRequired();
+
+                    b.Navigation("Reader")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

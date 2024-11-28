@@ -16,7 +16,7 @@ namespace BlogPlatform.Services
 
         }
 
-        public async Task<string> AddCommentAsync(CommentDTO comment)
+        public async Task<string> AddCommentAsync(Comment comment)
         {
             Comment addingcomment = new Comment()
             {

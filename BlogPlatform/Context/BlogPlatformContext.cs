@@ -19,7 +19,7 @@ namespace BlogPlatform.Context
 
         public DbSet<BlogPost> BlogPosts { get; set; }
 
-        public DbSet<Comment> BlogComments { get; set; }
+       // public DbSet<Comment> BlogComments { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -52,33 +52,34 @@ namespace BlogPlatform.Context
 
             modelBuilder.Entity<Blogger>()
                 .HasOne(b => b.User)
-                .WithMany(u => u.Bloggers)
-                .HasForeignKey(b => b.userId);
+                .WithOne(u => u.Blogger)
+                .HasForeignKey<Blogger>(b => b.userId);
                 
 
             modelBuilder.Entity<Reader>()
-                .HasOne<User>()
-                .WithMany()
-                .HasForeignKey(r => r.userId)
+                .HasOne(r=>r.user)
+                .WithOne(u=>u.Reader)
+                .HasForeignKey<Reader>(r => r.userId)
                 .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<BlogPost>()
-                .HasOne<Blogger>()
-                .WithMany()
-                .HasForeignKey(bp => bp.PostId)
-                .OnDelete(DeleteBehavior.Cascade);
+                .HasOne(bp => bp.Blogger)
+                .WithMany(b => b.blogPosts)
+                .HasForeignKey(bp => bp.BloggerID);
 
-            modelBuilder.Entity<Comment>()
-                .HasOne<BlogPost>()
-                .WithMany()
-                .HasForeignKey(c => c.PostId)
-                .OnDelete(DeleteBehavior.Cascade);
 
-            modelBuilder.Entity<Comment>()
-                .HasOne<Reader>()
-                .WithMany()
-                .HasForeignKey(c =>c.PostId)
-                .OnDelete(DeleteBehavior.Cascade);
+            //modelBuilder.Entity<Comment>()
+            //    .HasOne(c => c.blogPost)
+            //    .WithMany(b => b.Comments)
+            //    .HasForeignKey(c => c.PostId);
+
+
+           // modelBuilder.Entity<Comment>()
+             //   .HasOne(c => c.Reader)
+               // .WithMany(r => r.Comments)
+                //.HasForeignKey(c => c.CommentId)
+                //.HasConstraintName("FK_Comment_Reader");
+               
 
 
         }

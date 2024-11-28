@@ -81,7 +81,7 @@ namespace BlogPlatform.Repository
                 updatedPost.PostId = entity.PostId;
                 updatedPost.Title = entity.Title;
                 updatedPost.Content = entity.Content;
-                updatedPost.AuthorId = entity.AuthorId;
+                updatedPost.BloggerID = entity.BloggerID;
 
                 await _context.SaveChangesAsync();
                 return updatedPost;

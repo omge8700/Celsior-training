@@ -2,11 +2,15 @@
 {
     public class Reader 
     {
-
+        
+        public int ReaderID {  get; set; }
         public string Avatar {  get; set; }
         public string PersonalInfo { get; set; }
 
         public int userId;
+
+        public User user { get; set; }
+
 
         public int postId { get;  set; }
 
@@ -15,7 +19,7 @@
                this.userId = userId;
                this.postId = postId;
         }
-        public string commentonpost { get; set; }
+        public IEnumerable<Comment> Comments { get; set; }
 
         //public void FollowBlogger(int bloggerId)
         //{

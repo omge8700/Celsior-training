@@ -3,11 +3,13 @@ using BlogPlatform.Services;
 using BlogPlatform.Models.DTOs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Cors;
 
 namespace BlogPlatform.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("AllowAll")]
     public class BlogPostController : ControllerBase
     {
 

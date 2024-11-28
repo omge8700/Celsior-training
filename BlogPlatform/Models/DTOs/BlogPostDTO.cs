@@ -8,7 +8,7 @@
 
       
         public List<string> Tags { get; set; }
-        public int AuthorId { get; set; }
+        public int BloggerID { get; set; }
         public string Status { get; set; }
 
 

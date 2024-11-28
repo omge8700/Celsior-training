@@ -9,7 +9,11 @@ namespace BlogPlatform.Models
         [Key]
         public int PostId { get; set; }
 
-       
+
+        public int BloggerID { get; set; }
+
+        public Blogger Blogger { get; set; }
+    
         public IEnumerable<Comment> Comments { get; set; } 
 
         public string Title { get; set; }
@@ -24,7 +28,7 @@ namespace BlogPlatform.Models
             set => TagsSerialized = JsonSerializer.Serialize(value);
         }
 
-        public int AuthorId {  get; set; }
+        
 
         public DateTime PublicationDate { get; set; }
 

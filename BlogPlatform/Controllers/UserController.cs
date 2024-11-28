@@ -1,6 +1,7 @@
 ﻿using BlogPlatform.Interfaces;
 using BlogPlatform.Models.DTOs;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,6 +10,7 @@ namespace BlogPlatform.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //[EnableCors("AllowAll")]
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;

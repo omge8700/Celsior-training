@@ -11,7 +11,7 @@ namespace BlogPlatform.Interfaces
     {
         Task<Comment> GetCommentByIdAsync(int commentId);
         Task<IEnumerable<Comment>> GetCommentsByPostIdAsync(int postId);
-        Task  <string> AddCommentAsync(CommentDTO comment,int CommentId);
+        Task  <string> AddCommentAsync(Comment comment);
         Task <string> UpdateCommentAsync(CommentDTO comment);
         Task  DeleteCommentAsync(int  commentId);
 

@@ -14,6 +14,17 @@ using BlogPlatform.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+#region CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
+});
+#endregion
 
 
 #region Contexts

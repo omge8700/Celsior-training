@@ -8,8 +8,9 @@ namespace BlogPlatform.Models
     {
         public int  userId { get; set; } 
 
-        public IEnumerable<Blogger> Bloggers { get; set; }
+        public Blogger Blogger { get; set; }
 
+        public Reader Reader { get; set; }
         public string username { get; set; } = string.Empty;
 
         public byte[] password { get; set; } 

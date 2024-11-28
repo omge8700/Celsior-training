@@ -9,8 +9,11 @@ namespace BlogPlatform.Models
 
         
         public string Content { get;  set; }
-        public int AuthorId { get; set; }
 
+
+        
+        public Reader Reader { get; set; }
+        public BlogPost blogPost { get; set; }
         public int PostId {  get; set; }
 
         public DateTime Timestampt { get; set; }

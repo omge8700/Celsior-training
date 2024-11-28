@@ -85,7 +85,7 @@ namespace BlogPlatform.Repository
             {
                 updatereaderdetails.Avatar = entity.Avatar;
                 updatereaderdetails.PersonalInfo = entity.PersonalInfo;
-                updatereaderdetails.commentonpost = entity.commentonpost;
+               
 
                 await _context.SaveChangesAsync();
                 return updatereaderdetails;
