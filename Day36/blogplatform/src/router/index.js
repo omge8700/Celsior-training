@@ -5,6 +5,9 @@ import Login from "@/components/Login.vue";
 
 Vue.use(Router);
 
+const isuserLoggedIn = false;
+
+
 const router=new Router ({
     mode: "history",
 
@@ -28,7 +31,12 @@ const router=new Router ({
 
 router.beforeEach((to,from,next)=>{
     if (to.meta.needsAuth){
-        next("/login");
+        if( isuserLoggedIn){
+            next();
+        }else{
+            next("/login");
+        }
+        
     }else{
         next();
     }

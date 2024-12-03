@@ -4,15 +4,15 @@ using BlogPlatform.Models.DTOs;
 
 namespace BlogPlatform.Services
 {
-    public class CommentService :ICommentService
+    public class CommentService : ICommentService
     {
 
         private readonly IRepository<int, Comment> _commentrepo;
 
-        public CommentService(IRepository<int ,Comment> commentRepository)
+        public CommentService(IRepository<int, Comment> commentRepository)
         {
             _commentrepo = commentRepository;
-            
+
 
         }
 
@@ -36,8 +36,8 @@ namespace BlogPlatform.Services
                 throw new Exception("Could not be comment");
 
             }
-            
-            
+
+
         }
 
         public async Task DeleteCommentAsync(int commentId)
@@ -45,13 +45,14 @@ namespace BlogPlatform.Services
             try
             {
                 var checkcommentid = await _commentrepo.Get(commentId);
-                if (checkcommentid != null) {
+                if (checkcommentid != null)
+                {
 
                     await _commentrepo.Delete(commentId);
-                    
+
                 }
 
-                
+
 
             }
 
@@ -60,7 +61,7 @@ namespace BlogPlatform.Services
                 throw new Exception("Comment delete failde");
 
             }
-           
+
 
         }
 
@@ -72,7 +73,7 @@ namespace BlogPlatform.Services
 
         public async Task<IEnumerable<Comment>> GetCommentsByPostIdAsync(int postId)
         {
-            
+
             var gettingallcomments = await _commentrepo.GetAll();
             throw new NotImplementedException();
 

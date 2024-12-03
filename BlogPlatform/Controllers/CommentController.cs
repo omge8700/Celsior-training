@@ -14,11 +14,11 @@ namespace BlogPlatform.Controllers
     {
 
         private readonly ICommentService _commentService;
-        
+
         public CommentController(ICommentService commentService)
         {
             _commentService = commentService;
-            
+
         }
 
         [HttpPost("AddComment")]
@@ -34,7 +34,7 @@ namespace BlogPlatform.Controllers
 
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);  
+                return BadRequest(ex.Message);
             }
         }
 
@@ -73,7 +73,7 @@ namespace BlogPlatform.Controllers
         //    }
         //}
 
-      
+
 
     }
 }

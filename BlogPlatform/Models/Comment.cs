@@ -7,14 +7,14 @@ namespace BlogPlatform.Models
         [Key]
         public int CommentId { get; set; }
 
-        
-        public string Content { get;  set; }
+
+        public string Content { get; set; }
 
 
-        
+
         public Reader Reader { get; set; }
         public BlogPost blogPost { get; set; }
-        public int PostId {  get; set; }
+        public int PostId { get; set; }
 
         public DateTime Timestampt { get; set; }
 

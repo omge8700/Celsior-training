@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace BlogPlatform.Migrations
 {
-    public partial class init : Migration
+    public partial class BlogPlatform : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -93,34 +93,36 @@ namespace BlogPlatform.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Comment",
+                name: "BlogComments",
                 columns: table => new
                 {
-                    CommentId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    CommentId = table.Column<int>(type: "int", nullable: false),
                     Content = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ReaderID = table.Column<int>(type: "int", nullable: false),
-                    blogPostPostId = table.Column<int>(type: "int", nullable: false),
                     PostId = table.Column<int>(type: "int", nullable: false),
                     Timestampt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Likes = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Comment", x => x.CommentId);
+                    table.PrimaryKey("PK_BlogComments", x => x.CommentId);
                     table.ForeignKey(
-                        name: "FK_Comment_BlogPosts_blogPostPostId",
-                        column: x => x.blogPostPostId,
+                        name: "FK_BlogComments_BlogPosts_PostId",
+                        column: x => x.PostId,
                         principalTable: "BlogPosts",
                         principalColumn: "PostId",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Comment_Readers_ReaderID",
-                        column: x => x.ReaderID,
+                        name: "FK_BlogComments_Readers_CommentId",
+                        column: x => x.CommentId,
                         principalTable: "Readers",
                         principalColumn: "ReaderID",
                         onDelete: ReferentialAction.Cascade);
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_BlogComments_PostId",
+                table: "BlogComments",
+                column: "PostId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Bloggers_userId",
@@ -134,16 +136,6 @@ namespace BlogPlatform.Migrations
                 column: "BloggerID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Comment_blogPostPostId",
-                table: "Comment",
-                column: "blogPostPostId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Comment_ReaderID",
-                table: "Comment",
-                column: "ReaderID");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Readers_userId",
                 table: "Readers",
                 column: "userId",
@@ -153,7 +145,7 @@ namespace BlogPlatform.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Comment");
+                name: "BlogComments");
 
             migrationBuilder.DropTable(
                 name: "BlogPosts");

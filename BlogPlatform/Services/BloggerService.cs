@@ -49,7 +49,7 @@ namespace BlogPlatform.Services
 
                 Blogger bloggertobedeleted = new Blogger()
                 {
-                    BloggerID = blogger.BloggerID,
+                    BloggerID = BloggerId,
                 };
                 await _bloggerrepo.Delete(BloggerId);
                 return $"This Blogger is deleted with bloggerID :{BloggerId}";

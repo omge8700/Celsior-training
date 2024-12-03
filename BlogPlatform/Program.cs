@@ -36,7 +36,9 @@ builder.Services.AddDbContext<BlogPlatformContext>(options =>
 
 #region Repositories
 builder.Services.AddScoped<IRepository<string,User>, UserRepository>();
-//builder.Services.AddScoped<IRepository<int,Blogger>, BloggerRepository>();
+builder.Services.AddScoped<IRepository<int,Blogger>, BloggerRepository>();
+//builder.Services.AddScoped<BloggerRepository>();
+
 //builder.Services.AddScoped<IRepository<Reader>, ReaderRepository>();
 //builder.Services.AddScoped<IRepository<BlogPost>, BlogPostRepository>();
 //builder.Services.AddScoped<IRepository<Comment>, CommentRepository>();
@@ -59,7 +61,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 
+builder.Services.AddScoped<IBloggerService, BloggerService>();
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

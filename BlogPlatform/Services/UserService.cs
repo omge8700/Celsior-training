@@ -19,15 +19,15 @@ namespace BlogPlatform.Services
 
 
         private readonly ITokenService _tokenService;
-  
+        private readonly IRepository<int,Blogger> _bloggerRepository;
 
-
-        public UserService(IRepository<string, User> userRepository, ITokenService tokenService)
+        public UserService(IRepository<string, User> userRepository, ITokenService tokenService, IRepository<int,Blogger> bloggerRepository)
         {
             _userRepo = userRepository;
             
             _tokenService = tokenService;
            
+            _bloggerRepository = bloggerRepository;
         }
 
 
@@ -55,7 +55,19 @@ namespace BlogPlatform.Services
                     Username = addesUser.username,
                     Token = ""
                 };
-               
+                if (user.Role == "blogger")
+                {
+                    var blogger = new Blogger { 
+                    
+                        bio = "",
+                        profilePicture="",
+                        userId = addesUser.userId,
+
+                    };
+                    await _bloggerRepository.Add(blogger);
+
+                }
+                
                 return response ;
             }
             catch (Exception e)

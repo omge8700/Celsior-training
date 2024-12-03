@@ -12,12 +12,12 @@
         public User user { get; set; }
 
 
-        public int postId { get;  set; }
+      
 
-        public Reader(int userId,int postId) { 
+        public Reader(int userId) { 
             
                this.userId = userId;
-               this.postId = postId;
+              
         }
         public IEnumerable<Comment> Comments { get; set; }
 

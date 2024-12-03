@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BlogPlatform.Migrations
 {
     [DbContext(typeof(BlogPlatformContext))]
-    [Migration("20241125103746_init")]
-    partial class init
+    [Migration("20241202065445_BlogPlatform")]
+    partial class BlogPlatform
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -87,10 +87,7 @@ namespace BlogPlatform.Migrations
             modelBuilder.Entity("BlogPlatform.Models.Comment", b =>
                 {
                     b.Property<int>("CommentId")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CommentId"), 1L, 1);
 
                     b.Property<string>("Content")
                         .IsRequired()
@@ -102,22 +99,14 @@ namespace BlogPlatform.Migrations
                     b.Property<int>("PostId")
                         .HasColumnType("int");
 
-                    b.Property<int>("ReaderID")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("Timestampt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("blogPostPostId")
-                        .HasColumnType("int");
-
                     b.HasKey("CommentId");
 
-                    b.HasIndex("ReaderID");
+                    b.HasIndex("PostId");
 
-                    b.HasIndex("blogPostPostId");
-
-                    b.ToTable("Comment");
+                    b.ToTable("BlogComments");
                 });
 
             modelBuilder.Entity("BlogPlatform.Models.Reader", b =>
@@ -209,14 +198,14 @@ namespace BlogPlatform.Migrations
                 {
                     b.HasOne("BlogPlatform.Models.Reader", "Reader")
                         .WithMany("Comments")
-                        .HasForeignKey("ReaderID")
+                        .HasForeignKey("CommentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("BlogPlatform.Models.BlogPost", "blogPost")
                         .WithMany("Comments")
-                        .HasForeignKey("blogPostPostId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .HasForeignKey("PostId")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Reader");

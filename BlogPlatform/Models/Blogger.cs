@@ -15,9 +15,9 @@
 
 
 
-        public string bio { get; set; } 
+        public string bio { get; set; } = string.Empty;
 
-        public string profilePicture { get; set; } 
+        public string profilePicture { get; set; } = string.Empty ;
 
         
 
