@@ -1,48 +1,116 @@
 <script>
-import { login } from '@/scripts/LoginService';
+//import { login } from '@/script/UserService';
+//import { toast } from 'vue3-toastify';
+import 'vue3-toastify/dist/index.css';
 
 export default {
-  name: 'LoginComponent',
-  data() {
-    return {
-      email: '',
-      password: '',
-      login:()=>{
-        event.preventDefault();
-        login(this.email, this.password)
-        .then((response)=>{
-          alert(response.data.username + ' is logged in');
-        },err=>{
-          alert(err.response.data.errorMessage);
-        })
-       
-      }
+    name: 'LogIn',
+    data() {
+        return {
+            email: '',
+            password: '',
+            isLogin: false,
+            login: async () => {
+                event.preventDefault();
+            //     
+            }
+        }
+    },
+    mounted() {
+        const isToken = sessionStorage.getItem("token");
+        if (isToken) {
+            this.isLogin = true;
+            this.$router.push('/')
+        }
     }
-  }
-}   
+}
 </script>
+
 <template>
-  <div>
-    <h1>Login</h1>
-    <div class="formdiv">
-      <form>
-      <div>
-        <label class="form-control" for="email">Email</label>
-        <input class="form-control" type="email" id="email" v-model="email">
-      </div>
-      <div>
-        <label class="form-control" for="password">Password</label>
-        <input class="form-control" type="password" id="password" v-model="password">
-      </div>
-      <button class="btn btn-success" @click="login()" type="submit">Login</button>
-    </form>
+    <div class="container d-flex align-items-center">
+        <div class="row my-center align-items-center position-relative">
+            <div v-if="isLoading" class="position-absolute text-center">
+                
+            </div>
+            <div class="col-md-6">
+                
+            </div>
+            <div class="col-md-6 contents">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="mb-4">
+                            <h4>Welcome Back to MovieRent! 🎬</h4>
+                            <p class="mb-4">
+                                Sign in to enjoy endless entertainment.</p>
+                        </div>
+                        <form>
+                            <div class="form-group first">
+                                <label hidden for="username">Email</label>
+                                <input type="text" class="form-control" id="username" v-model="email"
+                                    placeholder="email">
+
+                            </div>
+                            <div class="form-group last">
+                                <label hidden for="password">Password</label>
+                                <input type="password" class="form-control" id="password" v-model="password"
+                                    placeholder="password">
+
+                            </div>
+
+                            <div class="d-flex mb-2 align-items-center justify-content-between">
+                                <label class="control control--checkbox mb-0 d-flex align-items-center">
+                                    <input type="checkbox" checked="checked" />
+                                    <span class="caption ms-2">Remember me</span>
+                                </label>
+                                <span class="ml-auto"><a href="#" class="forgot-pass">Forgot Password</a></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-block btn-primary w-100 p-3" @click="login()">Log
+                                In</button>
+
+                        </form>
+                        <div><span>New to Blogplatform?</span> <router-link to="/Registration">Sign up now</router-link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
+
 </template>
 <style scoped>
-  .formdiv{
-    width: 30%;
-    position: absolute;
-    left: 35%;
-  }
-  </style>
+.container {
+    background-color: rgb(248 249 250);
+    height: 100vh;
+}
+
+@media screen and (max-width: 672px) {
+    .container {
+        height: 150vh;
+    }
+}
+
+.form-group {
+    color: #edf2f5;
+}
+
+label {
+    color: #b3b3b3;
+
+}
+
+input {
+    background: #ced4da;
+    height: 70px;
+    font-size: 15px;
+}
+
+input::placeholder {
+    color: rgb(100, 97, 97);
+    opacity: .5;
+}
+
+p {
+    color: #b3b3b3;
+}
+</style>
