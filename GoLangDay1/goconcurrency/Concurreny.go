@@ -7,11 +7,9 @@ import (
 
 func cook(dish string,channel char string) {
 	fmt.Println("Start Cooking %s ",dish)
-	
-
 	// cooking something 
-
-	fmt.Printf("End Cooking %s \n", dish)
+    fmt.Printf("End Cooking %s \n", dish)
+	
 	channel <- " I'm Cooking" + dish;
 }
 func main(){
