@@ -1,0 +1,8 @@
+POST http://localhost: 8080/add-task
+Context-Type : application/json
+{
+    "name":"boxing",
+    "description":"Testing-Task",
+    "location":"Dhanbad",
+    "dateTime": "2025-01-"
+}
