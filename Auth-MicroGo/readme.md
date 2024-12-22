@@ -10,4 +10,13 @@ path:/demo
  # Today session 18-12
 
  1.Adding password validation and bunch ofstuff
+
+ # Todays 19th
+
+ adding jwt token
+
+ # 20th
+
+ Docker     
+
  

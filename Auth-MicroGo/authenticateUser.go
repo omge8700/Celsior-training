@@ -1,6 +1,7 @@
 package main
 
 import (
+	"auth-micro/config"
 	"auth-micro/model"
 	"net/http"
 	"strings"
@@ -22,7 +23,7 @@ func AuthenticateUser(ctx *gin.Context){
 
 	//validation logic
 
-	if userEmail == "" || userPassword ="" || strings.Contains(userEmail,"@") || !strings.Contains(userEmail,".") || len(userPassword) < 6 {
+	if  userEmail =="" || userPassword =="" || strings.Contains(userEmail,"@") || !strings.Contains(userEmail,".") || len(userPassword) < 6 {
 		logger.Warn("Invalid Request", zap.String("user email",userEmail));
 		ctx.JSON(http.StatusBadRequest,gin.H{"message":"The Request contains missing or invalid fields"})
 		return;
@@ -54,7 +55,12 @@ func AuthenticateUser(ctx *gin.Context){
 		return;
 	}
 	logger.Info("User Authenticated Successfully", zap.String("username",existingUser.Name),zap.String("useremail",userEmail) );
-	ctx.JSON(http.StatusOK,gin.H{"message" : "User Authenticated Successfully"})
+	token,err:=JwtManager.GenratingToken(&existingUser);
+	if err != nil {
+		ctx.JSON(http.StatusInternalServerError,gin.H{"token failure":"Couldn't generate the token"})
+	}
+	
+	ctx.JSON(http.StatusOK,gin.H{"message" : "User Authenticated Successfully","token":token})
 	
 
 
