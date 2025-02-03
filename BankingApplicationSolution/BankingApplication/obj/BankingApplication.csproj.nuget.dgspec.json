@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\om.singh\\source\\repos\\BankingApplicationSolution\\BankingApplication\\BankingApplication.csproj": {}
+    "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BankingApplicationSolution\\BankingApplication\\BankingApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\om.singh\\source\\repos\\BankingApplicationSolution\\BankingApplication\\BankingApplication.csproj": {
+    "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BankingApplicationSolution\\BankingApplication\\BankingApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\om.singh\\source\\repos\\BankingApplicationSolution\\BankingApplication\\BankingApplication.csproj",
+        "projectUniqueName": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BankingApplicationSolution\\BankingApplication\\BankingApplication.csproj",
         "projectName": "BankingApplication",
-        "projectPath": "C:\\Users\\om.singh\\source\\repos\\BankingApplicationSolution\\BankingApplication\\BankingApplication.csproj",
+        "projectPath": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BankingApplicationSolution\\BankingApplication\\BankingApplication.csproj",
         "packagesPath": "C:\\Users\\om.singh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\om.singh\\source\\repos\\BankingApplicationSolution\\BankingApplication\\obj\\",
+        "outputPath": "C:\\Users\\om.singh\\source\\PulledFiles\\Celsior-training\\BankingApplicationSolution\\BankingApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\om.singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,33 +46,19 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.12, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.36, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[6.0.36, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
-            },
-            "System.AppContext": {
-              "target": "Package",
-              "version": "[4.3.0, )"
             }
           },
           "imports": [

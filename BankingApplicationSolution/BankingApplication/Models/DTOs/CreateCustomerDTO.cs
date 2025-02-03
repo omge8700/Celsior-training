@@ -4,6 +4,7 @@ namespace BankingApplication.Models.DTOs
 {
     public class CreateCustomerDTO
     {
+        public int CustomerID { get; set; }
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
 

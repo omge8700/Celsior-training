@@ -57,9 +57,9 @@ namespace BankingApplication.Repositories
 
   
 
-        public Task<IEnumerable<Employee>> GetAll(string key)
+        public async Task<IEnumerable<Employee>> GetAll()
         {
-            var users = _bankingContext.Employees.ToList();
+            var users =  _bankingContext.Employees.ToList();
 
             if (users.Any())
             {
@@ -75,7 +75,7 @@ namespace BankingApplication.Repositories
 
         }
 
-        Task IRepository<string, Employee>.Delete(string key)
+         public async  Task <int> Delete(string key)
         {
             var user = await  Get(key);
 
@@ -88,7 +88,9 @@ namespace BankingApplication.Repositories
 
             await  _bankingContext.SaveChangesAsync();
 
-            return user;
+            return user.EmployeeId;
         }
+
+       
     }
 }
