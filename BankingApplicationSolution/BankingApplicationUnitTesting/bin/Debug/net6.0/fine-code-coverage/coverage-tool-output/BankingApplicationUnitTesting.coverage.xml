@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.9059" branch-rate="0.7187" version="1.9" timestamp="1738616935" lines-covered="838" lines-valid="925" branches-covered="23" branches-valid="32">
+<coverage line-rate="0.9523" branch-rate="0.875" version="1.9" timestamp="1739745542" lines-covered="960" lines-valid="1008" branches-covered="28" branches-valid="32">
   <sources>
     <source>C:\Users\om.singh\</source>
   </sources>
   <packages>
-    <package name="BankingApplication" line-rate="0.7302" branch-rate="0.7187" complexity="76">
+    <package name="BankingApplication" line-rate="0.8618000000000001" branch-rate="0.875" complexity="76">
       <classes>
         <class name="BankingApplication.Program" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplication\Program.cs" line-rate="0" branch-rate="0" complexity="2">
           <methods>
@@ -570,154 +570,154 @@
             <line number="115" hits="5" branch="False" />
           </lines>
         </class>
-        <class name="BankingApplication.Repositories.EmployeeRepository" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplication\Repositories\EmployeeRepository.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="BankingApplication.Repositories.EmployeeRepository" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplication\Repositories\EmployeeRepository.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name=".ctor" signature="(BankingApplication.Context.BankingContext)" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(BankingApplication.Context.BankingContext)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="0" branch="False" />
-                <line number="14" hits="0" branch="False" />
-                <line number="15" hits="0" branch="False" />
-                <line number="17" hits="0" branch="False" />
+                <line number="13" hits="7" branch="False" />
+                <line number="14" hits="7" branch="False" />
+                <line number="15" hits="7" branch="False" />
+                <line number="17" hits="7" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="13" hits="0" branch="False" />
-            <line number="14" hits="0" branch="False" />
-            <line number="15" hits="0" branch="False" />
-            <line number="17" hits="0" branch="False" />
+            <line number="13" hits="7" branch="False" />
+            <line number="14" hits="7" branch="False" />
+            <line number="15" hits="7" branch="False" />
+            <line number="17" hits="7" branch="False" />
           </lines>
         </class>
-        <class name="BankingApplication.Repositories.EmployeeRepository/&lt;Create&gt;d__2" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplication\Repositories\EmployeeRepository.cs" line-rate="0" branch-rate="0" complexity="2">
+        <class name="BankingApplication.Repositories.EmployeeRepository/&lt;Create&gt;d__2" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplication\Repositories\EmployeeRepository.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
               <lines>
-                <line number="20" hits="0" branch="False" />
-                <line number="22" hits="0" branch="False" />
-                <line number="23" hits="0" branch="False" />
-                <line number="24" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="20" hits="5" branch="False" />
+                <line number="22" hits="5" branch="False" />
+                <line number="23" hits="5" branch="False" />
+                <line number="24" hits="5" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
-                    <condition number="223" type="jump" coverage="0%" />
+                    <condition number="223" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="25" hits="0" branch="False" />
-                <line number="26" hits="0" branch="False" />
-                <line number="27" hits="0" branch="False" />
-                <line number="28" hits="0" branch="False" />
-                <line number="32" hits="0" branch="False" />
-                <line number="33" hits="0" branch="False" />
-                <line number="39" hits="0" branch="False" />
-                <line number="40" hits="0" branch="False" />
-                <line number="41" hits="0" branch="False" />
-                <line number="44" hits="0" branch="False" />
+                <line number="25" hits="4" branch="False" />
+                <line number="26" hits="4" branch="False" />
+                <line number="27" hits="4" branch="False" />
+                <line number="28" hits="4" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="44" hits="4" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="20" hits="0" branch="False" />
-            <line number="22" hits="0" branch="False" />
-            <line number="23" hits="0" branch="False" />
-            <line number="24" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="20" hits="5" branch="False" />
+            <line number="22" hits="5" branch="False" />
+            <line number="23" hits="5" branch="False" />
+            <line number="24" hits="5" branch="True" condition-coverage="100% (2/2)">
               <conditions>
-                <condition number="223" type="jump" coverage="0%" />
+                <condition number="223" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="25" hits="0" branch="False" />
-            <line number="26" hits="0" branch="False" />
-            <line number="27" hits="0" branch="False" />
-            <line number="28" hits="0" branch="False" />
-            <line number="32" hits="0" branch="False" />
-            <line number="33" hits="0" branch="False" />
-            <line number="39" hits="0" branch="False" />
-            <line number="40" hits="0" branch="False" />
-            <line number="41" hits="0" branch="False" />
-            <line number="44" hits="0" branch="False" />
+            <line number="25" hits="4" branch="False" />
+            <line number="26" hits="4" branch="False" />
+            <line number="27" hits="4" branch="False" />
+            <line number="28" hits="4" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="44" hits="4" branch="False" />
           </lines>
         </class>
-        <class name="BankingApplication.Repositories.EmployeeRepository/&lt;Delete&gt;d__6" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplication\Repositories\EmployeeRepository.cs" line-rate="0" branch-rate="0" complexity="2">
+        <class name="BankingApplication.Repositories.EmployeeRepository/&lt;Delete&gt;d__6" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplication\Repositories\EmployeeRepository.cs" line-rate="0.7777" branch-rate="0.5" complexity="2">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
+            <method name="MoveNext" signature="()" line-rate="0.7777" branch-rate="0.5" complexity="2">
               <lines>
-                <line number="79" hits="0" branch="False" />
-                <line number="80" hits="0" branch="False" />
-                <line number="82" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="79" hits="1" branch="False" />
+                <line number="80" hits="1" branch="False" />
+                <line number="82" hits="1" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
-                    <condition number="170" type="jump" coverage="0%" />
+                    <condition number="170" type="jump" coverage="50%" />
                   </conditions>
                 </line>
                 <line number="83" hits="0" branch="False" />
                 <line number="84" hits="0" branch="False" />
-                <line number="87" hits="0" branch="False" />
-                <line number="89" hits="0" branch="False" />
-                <line number="91" hits="0" branch="False" />
-                <line number="92" hits="0" branch="False" />
+                <line number="87" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+                <line number="91" hits="1" branch="False" />
+                <line number="92" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="79" hits="0" branch="False" />
-            <line number="80" hits="0" branch="False" />
-            <line number="82" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="79" hits="1" branch="False" />
+            <line number="80" hits="1" branch="False" />
+            <line number="82" hits="1" branch="True" condition-coverage="50% (1/2)">
               <conditions>
-                <condition number="170" type="jump" coverage="0%" />
+                <condition number="170" type="jump" coverage="50%" />
               </conditions>
             </line>
             <line number="83" hits="0" branch="False" />
             <line number="84" hits="0" branch="False" />
-            <line number="87" hits="0" branch="False" />
-            <line number="89" hits="0" branch="False" />
-            <line number="91" hits="0" branch="False" />
-            <line number="92" hits="0" branch="False" />
+            <line number="87" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="91" hits="1" branch="False" />
+            <line number="92" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="BankingApplication.Repositories.EmployeeRepository/&lt;Get&gt;d__3" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplication\Repositories\EmployeeRepository.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="BankingApplication.Repositories.EmployeeRepository/&lt;Get&gt;d__3" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplication\Repositories\EmployeeRepository.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="49" hits="0" branch="False" />
-                <line number="50" hits="0" branch="False" />
-                <line number="52" hits="0" branch="False" />
-                <line number="56" hits="0" branch="False" />
+                <line number="49" hits="2" branch="False" />
+                <line number="50" hits="2" branch="False" />
+                <line number="52" hits="2" branch="False" />
+                <line number="56" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="49" hits="0" branch="False" />
-            <line number="50" hits="0" branch="False" />
-            <line number="52" hits="0" branch="False" />
-            <line number="56" hits="0" branch="False" />
+            <line number="49" hits="2" branch="False" />
+            <line number="50" hits="2" branch="False" />
+            <line number="52" hits="2" branch="False" />
+            <line number="56" hits="2" branch="False" />
           </lines>
         </class>
-        <class name="BankingApplication.Repositories.EmployeeRepository/&lt;GetAll&gt;d__4" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplication\Repositories\EmployeeRepository.cs" line-rate="0" branch-rate="0" complexity="2">
+        <class name="BankingApplication.Repositories.EmployeeRepository/&lt;GetAll&gt;d__4" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplication\Repositories\EmployeeRepository.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
               <lines>
-                <line number="61" hits="0" branch="False" />
-                <line number="62" hits="0" branch="False" />
-                <line number="64" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="61" hits="2" branch="False" />
+                <line number="62" hits="2" branch="False" />
+                <line number="64" hits="2" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
-                    <condition number="48" type="jump" coverage="0%" />
+                    <condition number="48" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="65" hits="0" branch="False" />
-                <line number="66" hits="0" branch="False" />
-                <line number="69" hits="0" branch="False" />
-                <line number="70" hits="0" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="66" hits="1" branch="False" />
+                <line number="69" hits="1" branch="False" />
+                <line number="70" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="61" hits="0" branch="False" />
-            <line number="62" hits="0" branch="False" />
-            <line number="64" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="61" hits="2" branch="False" />
+            <line number="62" hits="2" branch="False" />
+            <line number="64" hits="2" branch="True" condition-coverage="100% (2/2)">
               <conditions>
-                <condition number="48" type="jump" coverage="0%" />
+                <condition number="48" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="65" hits="0" branch="False" />
-            <line number="66" hits="0" branch="False" />
-            <line number="69" hits="0" branch="False" />
-            <line number="70" hits="0" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="66" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
+            <line number="70" hits="1" branch="False" />
           </lines>
         </class>
         <class name="BankingApplication.Repositories.EmployeeRepository/&lt;Update&gt;d__5" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplication\Repositories\EmployeeRepository.cs" line-rate="0" branch-rate="1" complexity="1">
@@ -794,34 +794,34 @@
             <line number="28" hits="58" branch="False" />
           </lines>
         </class>
-        <class name="BankingApplication.Models.Employee" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplication\Models\Employee.cs" line-rate="0" branch-rate="1" complexity="4">
+        <class name="BankingApplication.Models.Employee" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplication\Models\Employee.cs" line-rate="1" branch-rate="1" complexity="4">
           <methods>
-            <method name="get_EmployeeId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_EmployeeId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="0" branch="False" />
+                <line number="13" hits="7" branch="False" />
               </lines>
             </method>
-            <method name="get_EmployeeName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_EmployeeName" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="0" branch="False" />
+                <line number="14" hits="13" branch="False" />
               </lines>
             </method>
-            <method name="get_EmployeeEmail" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_EmployeeEmail" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="0" branch="False" />
+                <line number="16" hits="20" branch="False" />
               </lines>
             </method>
-            <method name="get_Role" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Role" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="0" branch="False" />
+                <line number="18" hits="13" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="13" hits="0" branch="False" />
-            <line number="14" hits="0" branch="False" />
-            <line number="16" hits="0" branch="False" />
-            <line number="18" hits="0" branch="False" />
+            <line number="13" hits="7" branch="False" />
+            <line number="14" hits="13" branch="False" />
+            <line number="16" hits="20" branch="False" />
+            <line number="18" hits="13" branch="False" />
           </lines>
         </class>
         <class name="BankingApplication.Models.DTOs.CreateCustomerDTO" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplication\Models\DTOs\CreateCustomerDTO.cs" line-rate="1" branch-rate="1" complexity="8">
@@ -882,48 +882,48 @@
           <methods>
             <method name="get_Message" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="2" branch="False" />
+                <line number="11" hits="3" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="6" hits="2" branch="False" />
-                <line number="7" hits="2" branch="False" />
-                <line number="8" hits="2" branch="False" />
-                <line number="9" hits="2" branch="False" />
+                <line number="6" hits="3" branch="False" />
+                <line number="7" hits="3" branch="False" />
+                <line number="8" hits="3" branch="False" />
+                <line number="9" hits="3" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="11" hits="2" branch="False" />
-            <line number="6" hits="2" branch="False" />
-            <line number="7" hits="2" branch="False" />
-            <line number="8" hits="2" branch="False" />
-            <line number="9" hits="2" branch="False" />
+            <line number="11" hits="3" branch="False" />
+            <line number="6" hits="3" branch="False" />
+            <line number="7" hits="3" branch="False" />
+            <line number="8" hits="3" branch="False" />
+            <line number="9" hits="3" branch="False" />
           </lines>
         </class>
         <class name="BankingApplication.Exceptions.EmptyCollectionException" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplication\Exceptions\EmptyCollectionException.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
             <method name="get_Message" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="1" branch="False" />
+                <line number="13" hits="2" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="7" hits="2" branch="False" />
-                <line number="8" hits="2" branch="False" />
-                <line number="9" hits="2" branch="False" />
-                <line number="11" hits="2" branch="False" />
+                <line number="7" hits="3" branch="False" />
+                <line number="8" hits="3" branch="False" />
+                <line number="9" hits="3" branch="False" />
+                <line number="11" hits="3" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="13" hits="1" branch="False" />
-            <line number="7" hits="2" branch="False" />
-            <line number="8" hits="2" branch="False" />
-            <line number="9" hits="2" branch="False" />
-            <line number="11" hits="2" branch="False" />
+            <line number="13" hits="2" branch="False" />
+            <line number="7" hits="3" branch="False" />
+            <line number="8" hits="3" branch="False" />
+            <line number="9" hits="3" branch="False" />
+            <line number="11" hits="3" branch="False" />
           </lines>
         </class>
         <class name="BankingApplication.Controllers.CustomerController" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplication\Controllers\CustomerController.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -1124,29 +1124,29 @@
           <methods>
             <method name="get_Employees" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="15" branch="False" />
+                <line number="14" hits="36" branch="False" />
               </lines>
             </method>
             <method name="get_Customers" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="38" branch="False" />
+                <line number="16" hits="45" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(Microsoft.EntityFrameworkCore.DbContextOptions`1&lt;BankingApplication.Context.BankingContext&gt;)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="45" branch="False" />
+                <line number="8" hits="66" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="14" hits="15" branch="False" />
-            <line number="16" hits="38" branch="False" />
-            <line number="8" hits="45" branch="False" />
+            <line number="14" hits="36" branch="False" />
+            <line number="16" hits="45" branch="False" />
+            <line number="8" hits="66" branch="False" />
           </lines>
         </class>
       </classes>
     </package>
-    <package name="BankingApplicationUnitTesting" line-rate="0.9919" branch-rate="1" complexity="47">
+    <package name="BankingApplicationUnitTesting" line-rate="0.9914000000000001" branch-rate="1" complexity="56">
       <classes>
         <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\17.5.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -2852,6 +2852,262 @@
             <line number="232" hits="1" branch="False" />
             <line number="233" hits="1" branch="False" />
             <line number="234" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingApplicationUnitTesting.EmployeeRepositoryTest" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplicationUnitTesting\EmployeeRepositoryTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="6" branch="False" />
+                <line number="26" hits="6" branch="False" />
+                <line number="27" hits="6" branch="False" />
+                <line number="28" hits="6" branch="False" />
+                <line number="29" hits="6" branch="False" />
+                <line number="30" hits="6" branch="False" />
+                <line number="32" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="25" hits="6" branch="False" />
+            <line number="26" hits="6" branch="False" />
+            <line number="27" hits="6" branch="False" />
+            <line number="28" hits="6" branch="False" />
+            <line number="29" hits="6" branch="False" />
+            <line number="30" hits="6" branch="False" />
+            <line number="32" hits="6" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingApplicationUnitTesting.EmployeeRepositoryTest/&lt;&gt;c__DisplayClass5_0/&lt;&lt;EmployeeAddFailed_CouldNotAddException_Test&gt;b__0&gt;d" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplicationUnitTesting\EmployeeRepositoryTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="66" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="66" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingApplicationUnitTesting.EmployeeRepositoryTest/&lt;&gt;c__DisplayClass8_0/&lt;&lt;GetAll_EmptyCollectionException&gt;b__0&gt;d" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplicationUnitTesting\EmployeeRepositoryTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="120" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="120" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingApplicationUnitTesting.EmployeeRepositoryTest/&lt;Delete_Succss_Test&gt;d__9" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplicationUnitTesting\EmployeeRepositoryTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="129" hits="1" branch="False" />
+                <line number="130" hits="1" branch="False" />
+                <line number="131" hits="1" branch="False" />
+                <line number="132" hits="1" branch="False" />
+                <line number="133" hits="1" branch="False" />
+                <line number="134" hits="1" branch="False" />
+                <line number="135" hits="1" branch="False" />
+                <line number="136" hits="1" branch="False" />
+                <line number="138" hits="1" branch="False" />
+                <line number="139" hits="1" branch="False" />
+                <line number="140" hits="1" branch="False" />
+                <line number="142" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="129" hits="1" branch="False" />
+            <line number="130" hits="1" branch="False" />
+            <line number="131" hits="1" branch="False" />
+            <line number="132" hits="1" branch="False" />
+            <line number="133" hits="1" branch="False" />
+            <line number="134" hits="1" branch="False" />
+            <line number="135" hits="1" branch="False" />
+            <line number="136" hits="1" branch="False" />
+            <line number="138" hits="1" branch="False" />
+            <line number="139" hits="1" branch="False" />
+            <line number="140" hits="1" branch="False" />
+            <line number="142" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingApplicationUnitTesting.EmployeeRepositoryTest/&lt;EmployeeAddFailed_CouldNotAddException_Test&gt;d__5" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplicationUnitTesting\EmployeeRepositoryTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="56" hits="1" branch="False" />
+                <line number="57" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+                <line number="61" hits="1" branch="False" />
+                <line number="62" hits="1" branch="False" />
+                <line number="63" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+                <line number="68" hits="1" branch="False" />
+                <line number="70" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="56" hits="1" branch="False" />
+            <line number="57" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="61" hits="1" branch="False" />
+            <line number="62" hits="1" branch="False" />
+            <line number="63" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="68" hits="1" branch="False" />
+            <line number="70" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingApplicationUnitTesting.EmployeeRepositoryTest/&lt;EmployeeAdd_Succcss_Test&gt;d__4" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplicationUnitTesting\EmployeeRepositoryTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingApplicationUnitTesting.EmployeeRepositoryTest/&lt;GetAllEmployee_Success_test&gt;d__7" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplicationUnitTesting\EmployeeRepositoryTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="93" hits="1" branch="False" />
+                <line number="95" hits="1" branch="False" />
+                <line number="96" hits="1" branch="False" />
+                <line number="97" hits="1" branch="False" />
+                <line number="98" hits="1" branch="False" />
+                <line number="99" hits="1" branch="False" />
+                <line number="100" hits="1" branch="False" />
+                <line number="101" hits="1" branch="False" />
+                <line number="103" hits="1" branch="False" />
+                <line number="104" hits="1" branch="False" />
+                <line number="105" hits="1" branch="False" />
+                <line number="106" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="93" hits="1" branch="False" />
+            <line number="95" hits="1" branch="False" />
+            <line number="96" hits="1" branch="False" />
+            <line number="97" hits="1" branch="False" />
+            <line number="98" hits="1" branch="False" />
+            <line number="99" hits="1" branch="False" />
+            <line number="100" hits="1" branch="False" />
+            <line number="101" hits="1" branch="False" />
+            <line number="103" hits="1" branch="False" />
+            <line number="104" hits="1" branch="False" />
+            <line number="105" hits="1" branch="False" />
+            <line number="106" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingApplicationUnitTesting.EmployeeRepositoryTest/&lt;GetAll_EmptyCollectionException&gt;d__8" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplicationUnitTesting\EmployeeRepositoryTest.cs" line-rate="0.909" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.909" branch-rate="1" complexity="1">
+              <lines>
+                <line number="111" hits="1" branch="False" />
+                <line number="112" hits="1" branch="False" />
+                <line number="113" hits="1" branch="False" />
+                <line number="114" hits="1" branch="False" />
+                <line number="115" hits="1" branch="False" />
+                <line number="116" hits="1" branch="False" />
+                <line number="117" hits="1" branch="False" />
+                <line number="119" hits="1" branch="False" />
+                <line number="121" hits="1" branch="False" />
+                <line number="122" hits="1" branch="False" />
+                <line number="123" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="111" hits="1" branch="False" />
+            <line number="112" hits="1" branch="False" />
+            <line number="113" hits="1" branch="False" />
+            <line number="114" hits="1" branch="False" />
+            <line number="115" hits="1" branch="False" />
+            <line number="116" hits="1" branch="False" />
+            <line number="117" hits="1" branch="False" />
+            <line number="119" hits="1" branch="False" />
+            <line number="121" hits="1" branch="False" />
+            <line number="122" hits="1" branch="False" />
+            <line number="123" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingApplicationUnitTesting.EmployeeRepositoryTest/&lt;Get_Succss_test&gt;d__6" filename="source\PulledFiles\Celsior-training\BankingApplicationSolution\BankingApplicationUnitTesting\EmployeeRepositoryTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="75" hits="1" branch="False" />
+                <line number="76" hits="1" branch="False" />
+                <line number="77" hits="1" branch="False" />
+                <line number="78" hits="1" branch="False" />
+                <line number="79" hits="1" branch="False" />
+                <line number="80" hits="1" branch="False" />
+                <line number="81" hits="1" branch="False" />
+                <line number="82" hits="1" branch="False" />
+                <line number="84" hits="1" branch="False" />
+                <line number="85" hits="1" branch="False" />
+                <line number="86" hits="1" branch="False" />
+                <line number="87" hits="1" branch="False" />
+                <line number="88" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="75" hits="1" branch="False" />
+            <line number="76" hits="1" branch="False" />
+            <line number="77" hits="1" branch="False" />
+            <line number="78" hits="1" branch="False" />
+            <line number="79" hits="1" branch="False" />
+            <line number="80" hits="1" branch="False" />
+            <line number="81" hits="1" branch="False" />
+            <line number="82" hits="1" branch="False" />
+            <line number="84" hits="1" branch="False" />
+            <line number="85" hits="1" branch="False" />
+            <line number="86" hits="1" branch="False" />
+            <line number="87" hits="1" branch="False" />
+            <line number="88" hits="1" branch="False" />
           </lines>
         </class>
       </classes>
